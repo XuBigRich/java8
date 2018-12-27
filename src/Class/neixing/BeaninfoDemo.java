@@ -10,6 +10,9 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 /*
 * 这个包是描述 内省的
+* 内省通过判断 get方法  来确定  javabean的存在
+* 原理：通过get 来判断 是否存在 这个属性
+* 若不存在name  但又有getName()这个方法 则内省机制 确定 存在name 这个属性
 * */
 public class BeaninfoDemo {
 
