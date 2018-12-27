@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /*
 * 这个包是描述 内省的
 * */
-public class Main {
+public class BeaninfoDemo {
 
     public static void main(String[] args) throws IntrospectionException, InvocationTargetException, IllegalAccessException {
 BeanInfo beaninfo = Introspector.getBeanInfo(Student.class);
