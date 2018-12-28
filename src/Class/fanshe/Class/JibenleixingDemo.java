@@ -1,4 +1,4 @@
-package Class.Class;
+package Class.fanshe.Class;
 
 public class JibenleixingDemo {
 

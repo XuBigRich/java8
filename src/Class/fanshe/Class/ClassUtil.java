@@ -1,4 +1,4 @@
-package Class.Class;
+package Class.fanshe.Class;
 
 import Class.Spring.shili.Student;
 
@@ -11,8 +11,8 @@ import java.lang.reflect.Method;
 * */
 public class ClassUtil {
     public static void pritClassMessage(Object obj){
-        Class s=obj.getClass();
-        s.getName();//获取 这个 对象的 类 类型 ；
+        Class s=obj.getClass();//获取 这个 对象的 类 类型 ；
+        s.getName();//获取这个 对象类 类型 的 类型 名称
         /*
         * 获取方法信息
         * */

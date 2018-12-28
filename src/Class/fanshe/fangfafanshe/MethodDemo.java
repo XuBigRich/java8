@@ -1,7 +1,11 @@
-package Class.fanshe;
+package Class.fanshe.fangfafanshe;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+/*
+* 在计算机科学中，内省是指计算机程序在运行时（Run time）检查对象（Object）类型的一种能力，通常也可以称作运行时类型检查。
+*不应该将内省和反射混淆。相对于内省，反射更进一步，是指计算机程序在运行时（Run time）可以访问、检测和修改它本身状态或行为的一种能力。
+* */
 
 public class MethodDemo {
     public static Method meth() throws NoSuchMethodException {
@@ -12,7 +16,7 @@ public class MethodDemo {
          * getDeclaredMethod获取自己声明的方法
          * */
         //因为第二个参数 为可变参数 所以 也可以传数组 也可以传 两个参数；
-//        Method n= c.getDeclaredMethod("print",int.class,int.class);
+//        Method n= c.getDeclaredMethod("print",int.class,int.class);  //获取方法名为printd的方法 参数为 in类型的方法
         Method n= c.getDeclaredMethod("print",new Class[]{int.class,int.class});
         System.out.println(n.getName());
         return n;

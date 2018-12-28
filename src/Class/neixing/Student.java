@@ -16,9 +16,6 @@ public class Student {
             this.age = age;
         }
         public String getAbc() {
-            return null;
-        }
-        public void aaa(){
-            System.out.println("aaaa");
+            return "这是个通过伪造get 构造的假属性";
         }
 }
