@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f411499a-3395-4b04-9f11-480a0df4e5e4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/clone/kaobei/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clone/kaobei/CloneDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clone/kaobei/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clone/shenruQianToShen/ShallowClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clone/shenruQianToShen/shenclone/ShallowClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashcode/HashCodeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/Class/ClassUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/Class/JibenleixingDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/fanshe/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/fanshe/MethodDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/fanshe/MethodzuoyongDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/neixing/BeaninfoDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/Class/neixing/BeaninfoDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/neixing/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/Class/neixing/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/meijv/EnumDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/meijv/EnumDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Class/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/fanshe/Class/ClassUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Class/JibenleixingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/fanshe/Class/JibenleixingDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/fanshe/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/fanshe/fangfafanshe/MethodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/fanshe/MethodzuoyongDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/fanshe/fangfafanshe/MethodzuoyongDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/neixing/BeaninfoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/neixing/BeaninfoDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/neixing/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/neixing/Student.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,38 +41,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MethodzuoyongDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Class/fanshe/fangfafanshe/MethodzuoyongDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="30" column="84" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Class/fanshe/Class/ClassUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Class/ClassDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,9 +57,13 @@
       <find>create</find>
       <find>Integer</find>
       <find>size</find>
+      <find>Boos</find>
+      <find>ShallowClone</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>Boss</replace>
+      <replace>Staff</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\Workspaces\Java8</dir>
@@ -110,19 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/yunsuan/SwitchDemo.java" />
-        <option value="$PROJECT_DIR$/src/io/IOUtil.java" />
-        <option value="$PROJECT_DIR$/src/io/FilesDemo.java" />
-        <option value="$PROJECT_DIR$/src/io/ReadDemo.java" />
-        <option value="$PROJECT_DIR$/src/io/FileInputorOutputSteam.java" />
-        <option value="$PROJECT_DIR$/src/Primitive/IntDemo.java" />
-        <option value="$PROJECT_DIR$/src/Class/ClassDemo.java" />
-        <option value="$PROJECT_DIR$/src/Class/Spring/Spring.java" />
-        <option value="$PROJECT_DIR$/src/Class/Spring/Person.java" />
-        <option value="$PROJECT_DIR$/src/Class/Spring/Student.java" />
-        <option value="$PROJECT_DIR$/src/Class/Spring/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/Class/Spring/SpringDemo.java" />
-        <option value="$PROJECT_DIR$/src/Class/基本类型.java" />
         <option value="$PROJECT_DIR$/src/Class/JibenleixingDemo.java" />
         <option value="$PROJECT_DIR$/src/Class/ClassDemo/JibenleixingDemo.java" />
         <option value="$PROJECT_DIR$/src/Class/Class/JibenleixingDemo.java" />
@@ -161,6 +113,19 @@
         <option value="$PROJECT_DIR$/src/Class/fanshe/Class/ClassUtil.java" />
         <option value="$PROJECT_DIR$/src/Class/neixing/BeaninfoDemo.java" />
         <option value="$PROJECT_DIR$/src/Class/fanshe/fangfafanshe/MethodzuoyongDemo.java" />
+        <option value="$PROJECT_DIR$/src/clone/Boss.java" />
+        <option value="$PROJECT_DIR$/src/hashcode/HashCodeDemo.java" />
+        <option value="$PROJECT_DIR$/src/clone/Boos.java" />
+        <option value="$PROJECT_DIR$/src/clone/qianClone/CloneDemo1.java" />
+        <option value="$PROJECT_DIR$/src/clone/qianClone/Staff.java" />
+        <option value="$PROJECT_DIR$/src/clone/qianClone/CloneDemo.java" />
+        <option value="$PROJECT_DIR$/src/clone/Staff.java" />
+        <option value="$PROJECT_DIR$/src/clone/CloneDemo.java" />
+        <option value="$PROJECT_DIR$/src/clone/CloneDemo1.java" />
+        <option value="$PROJECT_DIR$/src/clone/shenrulijie/ShallowClone.java" />
+        <option value="$PROJECT_DIR$/src/clone/kaobei/CloneDemo.java" />
+        <option value="$PROJECT_DIR$/src/clone/shenrulijie/shenclone/ShallowClone.java" />
+        <option value="$PROJECT_DIR$/src/clone/shenruQianToShen/shenclone/ShallowClone.java" />
       </list>
     </option>
   </component>
@@ -180,8 +145,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2098" />
-    <option name="y" value="-750" />
+    <option name="x" value="1015" />
+    <option name="y" value="253" />
     <option name="width" value="1280" />
     <option name="height" value="696" />
   </component>
@@ -194,6 +159,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,64 +172,11 @@
               <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-              <item name="fanshe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-              <item name="fanshe" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-              <item name="fanshe" type="462c0819:PsiDirectoryNode" />
-              <item name="fangfafanshe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-              <item name="fanshe" type="462c0819:PsiDirectoryNode" />
-              <item name="fangfafanshe" type="462c0819:PsiDirectoryNode" />
-              <item name="MethodDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-              <item name="neixing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-              <item name="ClassDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,58 +216,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MethodzuoyongDemo">
-    <configuration name="BeaninfoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class.neixing.BeaninfoDemo" />
+  <component name="RunManager" selected="Application.ShallowClone (1)">
+    <configuration name="CloneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clone.kaobei.CloneDemo" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class.neixing.*" />
+          <option name="PATTERN" value="clone.kaobei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="meijv.EnumDemo" />
+    <configuration name="CloneDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clone.qianClone.CloneDemo1" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="meijv.*" />
+          <option name="PATTERN" value="clone.kaobei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="meijv.Main" />
+    <configuration name="HashCodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashcode.HashCodeDemo" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="meijv.*" />
+          <option name="PATTERN" value="hashcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class.neixing.Main" />
+    <configuration name="ShallowClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clone.shenruQianToShen.ShallowClone" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class.neixing.*" />
+          <option name="PATTERN" value="clone.shenruQianToShen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MethodzuoyongDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class.fanshe.fangfafanshe.MethodzuoyongDemo" />
+    <configuration name="ShallowClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clone.shenruQianToShen.shenclone.ShallowClone" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class.fanshe.fangfafanshe.*" />
+          <option name="PATTERN" value="clone.shenruQianToShen.shenclone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -401,19 +314,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.EnumDemo" />
-      <item itemvalue="Application.BeaninfoDemo" />
-      <item itemvalue="Application.MethodzuoyongDemo" />
+      <item itemvalue="Application.CloneDemo" />
+      <item itemvalue="Application.HashCodeDemo" />
+      <item itemvalue="Application.CloneDemo1" />
+      <item itemvalue="Application.ShallowClone" />
+      <item itemvalue="Application.ShallowClone (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MethodzuoyongDemo" />
-        <item itemvalue="Application.BeaninfoDemo" />
-        <item itemvalue="Application.EnumDemo" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ShallowClone (1)" />
+        <item itemvalue="Application.CloneDemo" />
+        <item itemvalue="Application.ShallowClone" />
+        <item itemvalue="Application.CloneDemo1" />
+        <item itemvalue="Application.HashCodeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -445,16 +358,16 @@
       <workItem from="1545890343152" duration="1347000" />
       <workItem from="1545891952100" duration="2922000" />
       <workItem from="1545895279665" duration="3886000" />
-      <workItem from="1545962905852" duration="9361000" />
+      <workItem from="1545962905852" duration="22748000" />
+      <workItem from="1546048313850" duration="12520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119818000" />
+    <option name="totallyTimeSpent" value="145725000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-746" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -465,26 +378,26 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5008183" side_tool="true" weight="0.36940297" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49918166" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918166" visible="true" weight="0.2854512" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28051737" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39645627" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39594844" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32978722" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -492,10 +405,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49918166" visible="true" weight="0.33222592" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49918166" visible="true" weight="0.2854512" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28051737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -504,7 +417,7 @@
       <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3971239" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39645627" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -513,7 +426,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32743362" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32668883" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32942432" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -550,67 +463,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Class/Spring/Student.java" />
-    <entry file="file://$PROJECT_DIR$/src/Class/Spring/shili/Student.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class/Spring/Techer.java" />
-    <entry file="file://$PROJECT_DIR$/src/List/ListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class/Spring/shili/Techer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class/Spring/shili/SpringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="659" selection-start-line="659" selection-end-line="659" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/WinNTFileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="221" selection-start-line="221" selection-end-line="221" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ref/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ref/FinalReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ref/Finalizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -660,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -675,12 +520,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/application.yml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/FileInputorOutputSteam.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -865,6 +710,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone/kaobei/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Class/fanshe/fangfafanshe/MethodzuoyongDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="240" column="54" lean-forward="true" selection-start-line="240" selection-start-column="54" selection-end-line="240" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Class/fanshe/Class/ClassUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -872,12 +748,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class/fanshe/fangfafanshe/MethodzuoyongDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/hashcode/HashCodeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="30" column="84" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
+        <state relative-caret-position="414">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone/qianClone/CloneDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone/CloneDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone/kaobei/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List/ListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone/kaobei/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone/kaobei/CloneDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone/shenruQianToShen/shenclone/ShallowClone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone/shenruQianToShen/ShallowClone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
           </folding>
         </state>
       </provider>
