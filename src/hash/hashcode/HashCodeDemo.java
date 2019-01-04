@@ -1,4 +1,4 @@
-package hashcode;
+package hash.hashcode;
 
 public class HashCodeDemo {
 /*

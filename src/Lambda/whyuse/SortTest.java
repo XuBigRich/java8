@@ -1,0 +1,120 @@
+package Lambda.whyuse;
+
+import java.util.*;
+
+public class SortTest {
+   static List<Employee> employees= Arrays.asList(
+            new Employee("张三",18,999999.99),
+            new Employee("李四",38,888888.88),
+            new Employee("王五",50,666666.66),
+            new Employee("赵六",16,333333.33)
+    );
+    public static void test1(){
+        Comparator<Integer> com = new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return Integer.compare(o1, 02);
+            }
+        };
+        TreeSet<Integer> ts=new TreeSet<>(com);
+    }
+    //Lambda表达式
+    public static void test2(){
+        Comparator<Integer> com=(o1,o2) ->Integer.compare(o1, 02);
+        TreeSet<Integer> ts=new TreeSet<>(com);
+    }
+    //为什么使用Lambda表达式
+    //===========================================================================================
+    //常规 写法
+    //=============================================================================================
+    //需求:获取当前公司中大于35岁的员工信息
+    public static List<Employee> filterEmployees(List <Employee> list){
+        List<Employee> list1=new ArrayList<>();
+        for(Employee employee:list){
+            if(employee.getAge()>35){
+                list1.add(employee);
+            }
+        }
+        return list1;
+    }
+    //需求获取当前公司中 员工工资大于5000的员工信息
+    public static List<Employee> filterEmployees2(List <Employee> list){
+        List<Employee> list1=new ArrayList<>();
+        for(Employee employee:list){
+            if(employee.getSalary()>5000){
+                list1.add(employee);
+            }
+        }
+        return list1;
+    }
+    //=======================================================================================
+     //设计模式(策略设计模式)      理解：事实上 新建一个类,这个类只是改了一下 查询等条件  减少了 前期大量的准备工作，减少了代码的冗余 但是 每次有新的需求都要新建立一个类
+    //=====================================================================================
+    //通过这种设计模式  可以在不用改变方法的状态下 去实现 各种查询条件（因为实现这种接口的方式 有很多）
+    public static List<Employee> filterEmployees(List <Employee> list,MyPredicate<Employee> mp){
+        List<Employee> emps=new ArrayList<>();
+        for (Employee employee: list){
+            if(mp.test(employee)){
+                emps.add(employee);
+            }
+        }
+        return emps;
+    }
+    //=========================================================================================================
+        //匿名内部类
+    //======================================================================================================
+    //用年龄作为条件
+    public static List test3(){
+        List list=filterEmployees(employees,new MyPredicate<Employee>(){
+            @Override
+            public boolean test(Employee employee) {
+                return employee.getAge()>35;
+            }
+        });
+        return list;
+    }
+    //用工资作为条件
+    public static List test4(){
+        List list=filterEmployees(employees,new MyPredicate<Employee>(){
+            @Override
+            public boolean test(Employee employee) {
+                return employee.getSalary()>5000;
+            }
+        });
+        return list;
+    }
+    //======================================================================================================
+        //用Lambda方式
+    //============================================
+    //用年龄作为条件
+    public static List test5(){
+        return filterEmployees(employees,(employee -> employee.getAge()>35));
+    }
+        //用工资作为条件
+     public static List test6(){
+        return filterEmployees(employees,(employee -> employee.getSalary()>5000));
+     }
+
+       public static void main(String[] args) {
+            //用年龄作为条件(常规手法)
+           System.out.println(filterEmployees(employees));
+           //用工资作为条件(常规手法)
+           System.out.println(filterEmployees2(employees));
+
+           //用年龄作为条件(策略设计模式)
+           List a=filterEmployees(employees,new FilterEmployeeByAge());
+           System.out.println(a);
+           //用工资作为条件(策略设计模式)
+           List b=filterEmployees(employees,new FilterEmployeeBySalary());
+           System.out.println(b);
+           //用年龄作为条件(匿名内部类)
+           System.out.println(test3());
+           //用工资作为条件 (匿名内部类)
+           System.out.println(test4());
+          // 用年龄作为条件（Lambda）
+           System.out.println(test5());
+           //用工资作为条件（Lambda）
+           System.out.println(test6());
+    }
+}
+
