@@ -10,30 +10,32 @@ public class Person implements Serializable {
     * 如果 去掉 序列化版本号 去反编译同一个 文件 也会成功  但 Person  被修改过（如：添加一个 age属性）再去反编译 则 会抛出java.io.InvalidClassExceptio 异常
     * 因为  这个类 再去 接收 反编译文件 用的是 原来默认生成的 序列化版本号 与 修改后默认生成的 序列化版本号 不同
     * */
-    private static final long serialVersionUID = -5809782578272943999L;
-    private int age;
+//    private static final long serialVersionUID = 1234567888854L;
     private String name;
     private String sex;
+    private int old;
+    private int age;
 
     public Person(String name, String sex,int age) {
         this.age = age;
         this.name = name;
         this.sex = sex;
-
-}
-
-    public Person(String name,String sex) {
-         this.sex = sex;
-        this.name = name;
     }
+    /*public Person(String name, String sex,int old) {
+        this.old = old;
+        this.name = name;
+        this.sex = sex;
+    }*/
+
 
 
     @Override
     public String toString() {
         return "Person{" +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", sex='" + sex + '\'' +
-                "age=" + age +
+                ", age=" + age +
+                ", old=" + old +
                 '}';
     }
 

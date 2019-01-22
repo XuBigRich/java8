@@ -6,9 +6,10 @@ public class SpringDemo  {
     * 所以 就可以执行 ；
     * */
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
-       String student= "Class.Spring.Student";
-       String techer= "Class.Spring.Techer";
+       String student= "Class.Spring.shili.Student";
+       String techer= "Class.Spring.shili.Techer";
         Class aaa= Class.forName(student);
+        System.out.println(aaa.getName());
         Person a= (Person)aaa.newInstance();
         a.say();
     	}

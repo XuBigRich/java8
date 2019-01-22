@@ -1,7 +1,9 @@
 package Class.fanshe.Class;
 
 public class JibenleixingDemo {
-
+/*
+* 证明类中所有组建 都是可以 以对象方式呈现的
+* */
     public static void main(String[] args) {
         Class c1=int.class;
         Class c2=String.class;
