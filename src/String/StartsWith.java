@@ -7,14 +7,14 @@ public class StartsWith {
     public void panduan(){
         for (String dg:c){
             if(dg.startsWith("ab")){
-                System.out.println("ÒÔab¿ªÍ·µÄ¶ÔÏó£º"+dg);
+                System.out.println("ä»¥abå¼€å¤´çš„å¯¹è±¡ï¼š"+dg);
             }else {
-                System.out.println("²»ÒÔab¿ªÍ·µÄ¶ÔÏó£º"+dg);
+                System.out.println("ä¸ä»¥abå¼€å¤´çš„å¯¹è±¡ï¼š"+dg);
             }
             if(dg.startsWith("abc")){
-                System.out.println("ÒÔabc¿ªÍ·µÄ¶ÔÏó£º"+dg);
+                System.out.println("ä»¥abcå¼€å¤´çš„å¯¹è±¡ï¼š"+dg);
             }else {
-                System.out.println("²»ÒÔabc¿ªÍ·µÄ¶ÔÏó£º"+dg);
+                System.out.println("ä¸ä»¥abcå¼€å¤´çš„å¯¹è±¡ï¼š"+dg);
             }
             System.out.println("=============================");
         }

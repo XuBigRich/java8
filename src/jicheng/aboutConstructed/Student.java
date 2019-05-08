@@ -1,3 +1,5 @@
+package jicheng.aboutConstructed;
+
 class Person{
 	public String name;
 	public int age=20;

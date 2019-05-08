@@ -9,7 +9,7 @@ public class Exetend {
 class SuperClass{
     int a=5;
     public SuperClass(){
-        test();       //当初始化子类时，默认先调用父类无参构造方法，若父类构造函数中的方法被子类重写，那么调用的是子类的方法；
+        test();       //当初始化子类时，默认先调用父类无参构造方法，若父类构造函数中的方法被子类重写，那么调用的是子类的方法；之所以输出0是因为当父类初始化时候 子类的 变量还没有初始化 所以 赋值没有起作用 输出为0
     }
     public void test(){
         System.out.println(a);

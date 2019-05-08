@@ -54,8 +54,9 @@ public class InterfaceDemo {
         System.out.println(eat);
         System.out.println(move);
     }
+
 }
 interface Person2 {
-     String eat();
-     String move();
+    String eat();
+    String move();
 }

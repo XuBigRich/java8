@@ -1,6 +1,7 @@
 package Class.fanshe.gouzaohanshu;
 
 public class Person {
+	public Person(String aaa){this.aaa=aaa;};
 	public Person(String name, String sex, int age) {
 		this.age = age;
 		this.name = name;
@@ -10,6 +11,17 @@ public class Person {
 	public String name;
 	public int age;
 	public String sex;
+
+	public String getAaa() {
+		return aaa;
+	}
+
+	public void setAaa(String aaa) {
+		this.aaa = aaa;
+	}
+
+	private String aaa;
+	public String bbb;
 
 	public String getName() {
 		return name;

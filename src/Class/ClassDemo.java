@@ -1,4 +1,5 @@
 package Class;
+
 /*
 * 所有的类都是Class类的对象
 * */
@@ -37,7 +38,7 @@ public class ClassDemo {
         Xu fmj= (Xu)class2.newInstance();
         fmj.aaa();
     	}
-
+    Class<? extends Object> c=Xu.class;
 }
 class Xu{
 //   创建实例对象 需要有无参数的 构造函数

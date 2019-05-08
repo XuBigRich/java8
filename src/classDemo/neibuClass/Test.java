@@ -1,5 +1,7 @@
 package classDemo.neibuClass;
 
+import classDemo.C;
+
 public class Test {
     public static void main(String[] args) {
     		A a=new A();
@@ -13,6 +15,9 @@ public class Test {
         /*
         * 总结
         * 内部类可以随意使用外部类所定义的成员变量
-        * */
+       * */
+//        C c=new C();
+        C.D d=new C.D();
     	}
+
 }

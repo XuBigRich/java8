@@ -3,10 +3,10 @@ package String;
 public class trim {
     public static String kongge="    ass   da      ";
     public static void qckg(){
-        //只取去除前后空格，不去除中间空格
+        //鍙彇鍘婚櫎鍓嶅悗绌烘牸锛屼笉鍘婚櫎涓棿绌烘牸
         String qckg=kongge.trim();
-        System.out.println("空格去除前："+kongge);
-        System.out.println("空格去除后："+qckg);
+        System.out.println("绌烘牸鍘婚櫎鍓嶏細"+kongge);
+        System.out.println("绌烘牸鍘婚櫎鍚庯細"+qckg);
     }
     public static void main(String[] args) {
     		trim.qckg();

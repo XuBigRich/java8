@@ -9,7 +9,7 @@ public class LambdaDemo {
             "David Ferrer","Roger Federer",
             "Andy Murray","Tomas Berdych",
             "Juan Martin Del Potro"};
-    List<String> players= Arrays.asList(atp);//数组转集合
+    List<String> players= Arrays.asList(atp);//数组转List集合
     // 以前的循环方式
     public void befor(){
         for (String player : players) {

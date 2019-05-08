@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 /*
 * 获取类中的 任何信息
-* 都需要先获得类的 类类型（重要）
+* 都需要先获得类的 类类型（重要 ）
 * */
 public class ClassUtil {
     public static void pritClassMessage(Object obj){

@@ -68,10 +68,17 @@ public class TestStreamAPI1 {
         stream.forEach(System.out::println);
 
     }
+    /*
+    * 映射
+    * */
+    public static void test5(){
+        employees.stream().map(Employee::getName).forEach(System.out::println);
+    }
     public static void main(String[] args) {
 //    		test1();
 //        test2();
 //        test3();
         test();
+        test5();
     	}
 }

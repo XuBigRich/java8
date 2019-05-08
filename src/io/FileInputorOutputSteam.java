@@ -48,6 +48,16 @@ public class FileInputorOutputSteam {
         in.read(bytes,0,bytes.length);
         out.write(bytes);
     }
+    public static void copy2(File file,File ofile) throws IOException {
+        if(!ofile.exists()){
+            ofile.createNewFile();
+        }
+        FileInputStream in=new FileInputStream(file);
+        FileOutputStream out=new FileOutputStream(ofile);
+        byte[] bytes=new byte[10];
+        in.read(bytes);
+        out.write(bytes);
+    }
     /*
     * 下面是个错误示范 in.read()不可以直接写
     * */
@@ -72,8 +82,9 @@ public class FileInputorOutputSteam {
         copyByBytes("D:\\demo\\wenjian.txt","啦啦啦");
 
         File a=new File("D:\\\\demo\\wenjian.txt");
-        File b=new File("D:\\测试\\a.txt");
-        copy(a,b);
+        File b=new File("D:\\demo\\a.txt");
+//        copy(a,b);
+        copy2(a,b);
 
 //        copybyread(a,b);// 错误示范运行 方法
    	}

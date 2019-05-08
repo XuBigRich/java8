@@ -3,9 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/demo/wenjian.txt" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/Static/Statc.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/String/Byte1.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/String/ByteDemo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/String/StartsWith.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/String/trim.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/String/StartsWith.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/String/trim.java" charset="UTF-8" />
   </component>
 </project>

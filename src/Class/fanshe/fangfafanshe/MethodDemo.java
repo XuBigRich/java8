@@ -61,12 +61,21 @@ public class MethodDemo {
     }
 }
 class A{
+    //==============================================
+    //与 下面相同的方法名 组成对照 看 第20行 代码 执行 哪个方法
     public void print(int a,int b){
         System.out.print(a+b);
     }
-    public String[] print1(String b,String c){
+    public String[] print(String b,String c){
        b= b.toUpperCase();
        c= c.toLowerCase();
+        String[] e={b,c};
+        return e;
+    }
+    //===================================================
+    public String[] print1(String b,String c){
+        b= b.toUpperCase();
+        c= c.toLowerCase();
         String[] e={b,c};
         return e;
     }
