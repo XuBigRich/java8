@@ -1,7 +1,6 @@
 package io;
 
 import java.io.File;
-import java.nio.file.Files;
 
 /*
 * File类用于表示文件（目录）与
@@ -64,7 +63,7 @@ public class FilesDemo {
                 System.out.println(f);
             }
          }
-         // 列出filelist下面所有文件
+         // 列出filelist下面  所有文件
          public void listall(File filelist){
             //先获得filelist下面子目录
              File[] file= filelist.listFiles();

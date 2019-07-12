@@ -2,251 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f411499a-3395-4b04-9f11-480a0df4e5e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/Cache/IntegerCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/Class/fanshe/field.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/Collection/CollectionDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/DataTypeshujvleixing/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/DataTypeshujvleixing/MyQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/DataTypeshujvleixing/Mystack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/LgAndBgleguansuobeiguansuo/ConFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/LgAndBgleguansuobeiguansuo/Stock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/LgAndBgleguansuobeiguansuo/Test1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/LgAndBgleguansuobeiguansuo/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/LgAndBgleguansuobeiguansuo/Test2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/LgAndBgleguansuobeiguansuo/Test2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/List/ArrayListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/List/LinkedListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/List/ListAndMap/ListMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/List/VectorDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/MapDemo/HashMapDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/MapDemo/HashTableDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/Servlet/ServletDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/String/TXtexing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/Time/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/Time/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/Time/TimeTaskTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/annotationzhujie/one/UserEntiy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/annotationzhujie/three/SetProperty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/annotationzhujie/three/SetTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/annotationzhujie/three/Text.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/annotationzhujie/three/UserEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/annotationzhujie/two/AnnDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/annotationzhujie/two/AnnotationDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/annotationzhujie/two/TestMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/chouxianglei/Cscxl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/chouxianglei/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/C$D.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/C.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/AbstractDemo$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/Main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/fanxing/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/fanxing/STTeacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/fanxing/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/fanxing/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/fanxing/TestFanXing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/finalDemo/Final.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/finalDemo/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/finallyDemo/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/forDemo/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/gouzaoqi/Boss.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/gouzaoqi/Slgz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/leixingzhuanhuan/duixiangleixingzhuanhuan/People.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/leixingzhuanhuan/duixiangleixingzhuanhuan/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/leixingzhuanhuan/duixiangleixingzhuanhuan/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/leixingzhuanhuan/qiangzhileixingzhuanhuan/Qz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/method/ActionScope.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/method/EquAndDd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/mianshiti/duoxiancheng/TestSync2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/mianshiti/fuzai/TestObjectString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/sanmuyunsuan/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/shejimoshi/danlimoshi/Danli.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/shejimoshi/danlimoshi/Slh.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/shejimoshi/gongchangmoshi/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/shejimoshi/gongchangmoshi/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/shejimoshi/gongchangmoshi/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/shejimoshi/gongchangmoshi/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/shortDemo/shortDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/sjjg/ZhanAndDuilie/MyQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/sjjg/ZhanAndDuilie/MyStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/sjjg/ZhanAndDuilie/TestMyStructure.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/sjjg/paixu/Sort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/sjjg/shuzu/DemoArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/sjjg/shuzu/MyArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/sjjg/shuzu/Sz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/sjjg/shuzu/TestArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/socket/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/socket/ClientHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/socket/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java8/socket/ServerBoot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cache/IntegerCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cache/JavaCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cache/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Changdu/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class/fanshe/field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/CollectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LgAndBgleguansuobeiguansuo/ConFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LgAndBgleguansuobeiguansuo/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LgAndBgleguansuobeiguansuo/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LgAndBgleguansuobeiguansuo/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/List/LinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/List/ListAndMap/ListMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/List/VectorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MapDemo/HashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MapDemo/HashTableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Servlet/ServletDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Static/FlStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Static/ZlStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Indexof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/TXtexing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Time/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Time/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Time/TimeTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/XML/xmlsjk/ParseDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/XML/xmlsjk/ReadDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/XML/xmlsjk/ReadXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/XML/xmlsjk/WriteDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotationzhujie/one/UserEntiy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotationzhujie/three/SetProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotationzhujie/three/SetTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotationzhujie/three/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotationzhujie/three/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotationzhujie/two/AnnotationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotationzhujie/two/TestMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baozhuangbei/BaozhuangDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/charDemo/CharDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chouxianglei/Cscxl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chouxianglei/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/nimingneibuClass/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/nimingneibuClass/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/waibulei/TestNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/waibulei/W.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/xiushifu/DefaultTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/xiushifu/DefaultTestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/xiushifu/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/xiushifu/Zuoyongfanwei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/xiushifu/Zuoyongfanwei2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/xiushifu2/TestZyfw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/xiushifu2/TestZyfw2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/xiushifu3/TestZyfw3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fanxing/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fanxing/STTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fanxing/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fanxing/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fanxing/TestFanXing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/finalDemo/Final.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/finalDemo/FinalMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/finalDemo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/finalDemo/ZlFinalMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/finallyDemo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forDemo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gouzaoqi/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gouzaoqi/Slgz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ijjorjji/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ijjorjji/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceAndAbstractDemo/shixianAbstract/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceAndAbstractDemo/shixianAbstract/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jicheng/mianshiti/duotai/MSTDT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jicheng/mianshiti/duotai/jieshi/JSSuperAThis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jicheng/mianshiti/team1/Super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jicheng/mianshiti/team1/This.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jicheng/mianshiti/team2/Super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jicheng/mianshiti/team2/This.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leixingzhuanhuan/jisuanzhongdeleixingzhuanhuan/JS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leixingzhuanhuan/qiangzhileixingzhuanhuan/Qz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/ActionScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/EquAndDd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mianshiti/CZreference/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mianshiti/duoxiancheng/TestSync2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mianshiti/fuzai/TestObjectString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robot/HackerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sanmuyunsuan/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shejimoshi/danlimoshi/Danli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shejimoshi/danlimoshi/Slh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shejimoshi/gongchangmoshi/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shejimoshi/gongchangmoshi/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shejimoshi/gongchangmoshi/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shejimoshi/gongchangmoshi/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shortDemo/shortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sjjg/ZhanAndDuilie/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sjjg/ZhanAndDuilie/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sjjg/ZhanAndDuilie/TestMyStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sjjg/paixu/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sjjg/shuzu/DemoArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sjjg/shuzu/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sjjg/shuzu/Sz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sjjg/shuzu/TestArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/ServerBoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classDemo/chushihua/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classDemo/chushihua/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forDemo/TestFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meijv/EnumMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meijv/EnumStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/qianming/BKQApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/qianming/SignHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhengzhebiaodao/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/ClassDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/Class/ClassDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/Xu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/Class/Xu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/fanshe/fangfafanshe/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/Class/fanshe/fangfafanshe/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Class/fanshe/gouzaohanshu/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/Class/fanshe/gouzaohanshu/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Implement/newFeature/Iinterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Implement/newFeature/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Implement/shixianjiekou/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Implement/shixianjiekou/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Implement/shixianjiekou/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Implement/shixianjiekou/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/List/ListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Static/Statc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/Static/Statc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Stream/TestStreamAPI1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/Stream/TestStreamAPI1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/String/StartsWith.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/String/StartsWith.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/String/format.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/String/format.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/String/trim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/String/trim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/classDemo/neibuClass/A$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/neibuClass/A$B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/classDemo/neibuClass/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/neibuClass/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/classDemo/neibuClass/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/neibuClass/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/AbstractDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/AbstractDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/AbstractDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/AbstractDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/classDemo/nimingneibuClass/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/interfaceDemo/newFeature/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/io/FileInputorOutputSteam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/io/FileInputorOutputSteam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/leixingzhuanhuan/People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/leixingzhuanhuan/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/leixingzhuanhuan/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/ClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/ClassDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/fanshe/Class/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/fanshe/Class/ClassUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/fanshe/fangfafanshe/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/fanshe/fangfafanshe/MethodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/fanshe/gouzaohanshu/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/fanshe/gouzaohanshu/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Implement/newFeature/Iinterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Implement/newFeature/MyInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Implement/newFeature/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Implement/shixianjiekou/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Implement/shixianjiekou/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Implement/shixianjiekou/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Implement/shixianjiekou/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lambda/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambda/LambdaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lambda/use/TestLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambda/use/TestLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/ArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Static/Statc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static/Statc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream/TestStreamAPI1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/TestStreamAPI1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/StartsWith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/StartsWith.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/format.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/format.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/trim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/trim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classDemo/neibuClass/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classDemo/neibuClass/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classDemo/neibuClass/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classDemo/neibuClass/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classDemo/nimingneibuClass/AbstractDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classDemo/nimingneibuClass/AbstractDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classDemo/nimingneibuClass/InterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classDemo/nimingneibuClass/InterfaceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/FileInputorOutputSteam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/FileInputorOutputSteam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/ymltest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/ymltest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jicheng/aboutConstructed/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jicheng/aboutConstructed/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jicheng/aboutProperty/Exetend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jicheng/aboutProperty/Exetend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leixingzhuanhuan/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leixingzhuanhuan/duixiangleixingzhuanhuan/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8/MapDemo/HashTableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/MapDemo/HashTableDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8/io/FilesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/io/FilesDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8/jicheng/chushihualiucheng/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/jicheng/chushihualiucheng/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8/jicheng/chushihualiucheng/Subclass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/jicheng/chushihualiucheng/Subclass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8/meijv/EnumDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/meijv/EnumDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8/meijv/Meij.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/meijv/Meij.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8/method/ActionScope.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/method/ActionScope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapDemo/HashTableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapDemo/HashTableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forDemo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forDemo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/FilesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/FilesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jicheng/chushihualiucheng/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jicheng/chushihualiucheng/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jicheng/chushihualiucheng/Subclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jicheng/chushihualiucheng/Subclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meijv/EnumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/meijv/EnumDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meijv/Meij.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/meijv/Meij.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/method/ActionScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/ActionScope.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,22 +60,49 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="trim.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/String/trim.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/meijv/EnumMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="266">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Indexof.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/String/Indexof.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/forDemo/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+            <state relative-caret-position="646">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/forDemo/TestFor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/meijv/EnumDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -303,10 +113,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -332,6 +142,10 @@
       <find>char</find>
       <find>序列化</find>
       <find>abst</find>
+      <find>split</find>
+      <find>sw</find>
+      <find>swic</find>
+      <find>块</find>
     </findStrings>
     <replaceStrings>
       <replace>Boss</replace>
@@ -343,6 +157,8 @@
       <dir>D:\Workspaces\Java8\src\jicheng</dir>
       <dir>D:\Workspaces\Java8\src</dir>
       <dir>D:\Workspaces\Java8</dir>
+      <dir>D:\studen\Java8\src\Class</dir>
+      <dir>D:\studen\Java8</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -351,24 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/finalDemo/ZlFinal.java" />
-        <option value="$PROJECT_DIR$/src/Static/FlStatic.java" />
-        <option value="$PROJECT_DIR$/src/Static/ZlStatic.java" />
-        <option value="$PROJECT_DIR$/src/Static/Statc.java" />
-        <option value="$PROJECT_DIR$/src/finalDemo/FinalMethod.java" />
-        <option value="$PROJECT_DIR$/src/finalDemo/ZlFinalMethod.java" />
-        <option value="$PROJECT_DIR$/src/socket/ServerBoot.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/aboutConstructed/Student.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/Super.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/This.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/mianshiti/This.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/mianshiti/team1/Super.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/mianshiti/team2/Super.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/mianshiti/team1/This.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/mianshiti/team2/This.java" />
-        <option value="$PROJECT_DIR$/src/jorj/Demo.java" />
-        <option value="$PROJECT_DIR$/src/ijjorjji/Demo.java" />
-        <option value="$PROJECT_DIR$/src/Cache/IntegerCache.java" />
         <option value="$PROJECT_DIR$/src/baozhuangbei/IntegerDemo.java" />
         <option value="$PROJECT_DIR$/src/baozhuangbei/BaozhuangDemo.java" />
         <option value="$PROJECT_DIR$/src/List/ArrayListDemo.java" />
@@ -402,14 +200,26 @@
         <option value="$PROJECT_DIR$/src/String/StartsWith.java" />
         <option value="$PROJECT_DIR$/src/String/trim.java" />
         <option value="$PROJECT_DIR$/src/String/Indexof.java" />
+        <option value="$PROJECT_DIR$/src/io/FilesDemo.java" />
+        <option value="$PROJECT_DIR$/src/MapDemo/HashTableDemo.java" />
+        <option value="$PROJECT_DIR$/src/zhengzhebiaodao/Main.java" />
+        <option value="$PROJECT_DIR$/../BKQApi.java" />
+        <option value="$PROJECT_DIR$/src/qianming/Main.java" />
+        <option value="$PROJECT_DIR$/src/qianming/BKQApi.java" />
+        <option value="$PROJECT_DIR$/src/qianming/SignHelper.java" />
+        <option value="$PROJECT_DIR$/src/classDemo/chushihua/Text.java" />
+        <option value="$PROJECT_DIR$/src/classDemo/chushihua/Demo.java" />
+        <option value="$PROJECT_DIR$/src/jicheng/chushihualiucheng/Parent.java" />
+        <option value="$PROJECT_DIR$/src/jicheng/chushihualiucheng/Subclass.java" />
+        <option value="$PROJECT_DIR$/src/method/ActionScope.java" />
+        <option value="$PROJECT_DIR$/src/meijv/fangfa.java" />
+        <option value="$PROJECT_DIR$/src/meijv/SeasonEnum.java" />
+        <option value="$PROJECT_DIR$/src/meijv/Meij.java" />
+        <option value="$PROJECT_DIR$/src/meijv/EnumDemo.java" />
+        <option value="$PROJECT_DIR$/src/meijv/EnumMethod.java" />
+        <option value="$PROJECT_DIR$/src/forDemo/TestFor.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -417,14 +227,11 @@
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="525" />
-    <option name="y" value="39" />
-    <option name="width" value="1296" />
-    <option name="height" value="705" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="318" />
+    <option name="y" value="126" />
+    <option name="width" value="1320" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -434,9 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -447,47 +251,56 @@
             <path>
               <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
+              <item name="forDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meijv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Workspaces/Java8/src/sjjg/paixu/BubbleSort.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="D:/studenthood/Servlet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Thread" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspaces\Java8\src" />
-      <recent name="D:\Workspaces\Java8\resources" />
-      <recent name="D:\Workspaces\Java8\resources\spring" />
-      <recent name="D:\Workspaces\Java8" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="LgAndBgleguansuobeiguansuo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\studen\Java8\src\qianming" />
       <recent name="D:\Workspaces\Java8\src\XML\xmlsjk" />
       <recent name="D:\Workspaces\Java8\src\Class\neixing" />
       <recent name="D:\Workspaces\Java8\src\Class\Spring\peizhi" />
@@ -498,8 +311,11 @@
       <recent name="Class.Spring.peizhi" />
       <recent name="Class.Spring.shili" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="LgAndBgleguansuobeiguansuo" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspaces\Java8\src" />
+      <recent name="D:\Workspaces\Java8\resources" />
+      <recent name="D:\Workspaces\Java8\resources\spring" />
+      <recent name="D:\Workspaces\Java8" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -514,128 +330,113 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Indexof">
-    <configuration name="Indexof" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.Indexof" />
+  <component name="RunManager" selected="Application.TestFor">
+    <configuration name="BKQApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="qianming.BKQApi" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="qianming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="MSTDT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jicheng.duotai.MSTDT" />
+    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="meijv.EnumDemo" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jicheng.mianshiti.duotai.*" />
+          <option name="PATTERN" value="meijv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Man" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaceAndAbstractDemo.shixianAbstract.Man" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zhengzhebiaodao.Main" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaceAndAbstractDemo.shixianAbstract.*" />
+          <option name="PATTERN" value="zhengzhebiaodao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ServerBoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="socket.ServerBoot" />
+    <configuration name="Subclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jicheng.chushihualiucheng.Subclass" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="socket.*" />
+          <option name="PATTERN" value="jicheng.chushihualiucheng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="StartsWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.StartsWith" />
+    <configuration name="TestFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forDemo.TestFor" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="forDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="trim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.trim" />
-      <module name="Java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ServerBoot" />
-      <item itemvalue="Application.Man" />
-      <item itemvalue="Application.StartsWith" />
-      <item itemvalue="Application.trim" />
-      <item itemvalue="Application.Indexof" />
+      <item itemvalue="Application.TestFor" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.BKQApi" />
+      <item itemvalue="Application.Subclass" />
+      <item itemvalue="Application.EnumDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Indexof" />
-        <item itemvalue="Application.trim" />
-        <item itemvalue="Application.StartsWith" />
-        <item itemvalue="Application.ServerBoot" />
-        <item itemvalue="Application.Man" />
+        <item itemvalue="Application.TestFor" />
+        <item itemvalue="Application.EnumDemo" />
+        <item itemvalue="Application.Subclass" />
+        <item itemvalue="Application.BKQApi" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -786,12 +587,50 @@
       <workItem from="1557194523679" duration="3156000" />
       <workItem from="1557209423477" duration="418000" />
       <workItem from="1557210168590" duration="583000" />
-      <workItem from="1557280799954" duration="301000" />
+      <workItem from="1557280799954" duration="3442000" />
+      <workItem from="1557366886012" duration="2920000" />
+      <workItem from="1557382810040" duration="12000" />
+      <workItem from="1557382865153" duration="3000" />
+      <workItem from="1557383182357" duration="735000" />
+      <workItem from="1557453776686" duration="585000" />
+      <workItem from="1557535910633" duration="321000" />
+      <workItem from="1557539812781" duration="73000" />
+      <workItem from="1557541787059" duration="1883000" />
+      <workItem from="1557713005395" duration="1380000" />
+      <workItem from="1557799168980" duration="1252000" />
+      <workItem from="1557885536675" duration="7812000" />
+      <workItem from="1557972353805" duration="583000" />
+      <workItem from="1558059079391" duration="2448000" />
+      <workItem from="1558319214833" duration="592000" />
+      <workItem from="1558324228082" duration="647000" />
+      <workItem from="1558359167699" duration="1187000" />
+      <workItem from="1558403932293" duration="594000" />
+      <workItem from="1558490458848" duration="2317000" />
+      <workItem from="1558927444547" duration="4319000" />
+      <workItem from="1559009516016" duration="592000" />
+      <workItem from="1559096407738" duration="575000" />
+      <workItem from="1560601112604" duration="5315000" />
+      <workItem from="1560645591202" duration="15000" />
+      <workItem from="1560645670997" duration="40000" />
+      <workItem from="1560645764327" duration="4964000" />
+      <workItem from="1560773746677" duration="1196000" />
+      <workItem from="1561083254575" duration="844000" />
+      <workItem from="1561101512275" duration="601000" />
+      <workItem from="1561116271686" duration="752000" />
+      <workItem from="1561119956936" duration="1444000" />
+      <workItem from="1561168391198" duration="2162000" />
+      <workItem from="1561276580917" duration="596000" />
+      <workItem from="1561685896097" duration="589000" />
+      <workItem from="1561712229459" duration="972000" />
+      <workItem from="1561774363428" duration="580000" />
+      <workItem from="1561882590574" duration="579000" />
+      <workItem from="1562054690855" duration="572000" />
+      <workItem from="1562063597913" duration="584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="699244000" />
+    <option name="totallyTimeSpent" value="755020000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,75 +642,80 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="11" width="864" height="470" extended-state="7" />
+    <frame x="212" y="84" width="880" height="516" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296501" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.36766335" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32902184" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.46777165" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3296501" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3296501" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.24813896" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" sideWeight="0.50092083" side_tool="true" weight="0.15036379" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.50460404" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32902184" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3222836" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32780847" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.46678323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5034965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296501" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3296501" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.36766335" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3296501" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3216783" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32902184" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32902184" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3296501" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.548803" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.19805983" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.1738076" />
       <window_info id="Structure" order="1" sideWeight="0.50092083" side_tool="true" weight="0.15036379" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296501" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32902184" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.50644565" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3296501" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.36766335" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3222836" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32902184" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32780847" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49840087" weight="0.46678323" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5034965" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3296501" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3296501" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.36766335" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3296501" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3216783" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32902184" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32902184" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Database" order="10" weight="0.32983023" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -936,6 +780,12 @@
           <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/meijv/EnumMethod.java</url>
+          <line>1</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/sjjg/paixu/Sort.java</url>
           <line>48</line>
@@ -961,7 +811,6 @@
           <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="64" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -970,261 +819,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ijjorjji/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ijjorjji/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jicheng/aboutProperty/Exetend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jicheng/chushihualiucheng/Subclass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jicheng/chushihualiucheng/Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/team1/This.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/team2/This.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/duotai/jieshi/JSSuperAThis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/duotai/jieshi/JSProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/team2/Super.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/team1/Super.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/duotai/MSTDT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shejimoshi/danlimoshi/Slh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leixingzhuanhuan/jisuanzhongdeleixingzhuanhuan/JS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tomcat/servlet/4.0.6/servlet-4.0.6.jar!/javax/servlet/Servlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa14620.5163/ParseDB.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa2592.28508/ParseDB.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa2592.30698/ReadDB.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa2592.38112/WriteDB.java" />
-    <entry file="file://$PROJECT_DIR$/src/chouxianglei/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LgAndBgleguansuobeiguansuo/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LgAndBgleguansuobeiguansuo/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LgAndBgleguansuobeiguansuo/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LgAndBgleguansuobeiguansuo/ConFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="18" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XML/xmlsjk/ReadXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XML/xmlsjk/WriteDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XML/xmlsjk/ParseDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XML/xmlsjk/ReadDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/method/EquAndDd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/method/ActionScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/xuliehua/TestObjSerializeAndDeserialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mianshiti/CZreference/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/ymltest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/FilesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/socket/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/socket/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/socket/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tomcat/servlet/4.0.6/servlet-4.0.6.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/tomcat/servlet/4.0.6/servlet-4.0.6.jar!/javax/servlet/GenericServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-538">
@@ -1267,31 +861,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/ByteDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/format.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/StartsWith.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/TXtexing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="421" selection-start-line="421" selection-end-line="422" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1302,10 +882,285 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/StartsWith.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/Indexof.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+        <state relative-caret-position="286">
+          <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/format.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/ByteDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bianma/Zhuanhuan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wenjian.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/FilesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stream/TestStreamAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stream/TestStreamAPI1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="621" column="19" selection-start-line="621" selection-start-column="19" selection-end-line="621" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MapDemo/HashTableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhengzhebiaodao/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SignHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/qianming/Main.java" />
+    <entry file="file://$PROJECT_DIR$/../BKQApi.java" />
+    <entry file="file://$PROJECT_DIR$/src/qianming/BKQApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1587">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/switchDemo/SwitchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qianming/SignHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classDemo/chushihua/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gouzaoqi/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gouzaoqi/Slgz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classDemo/chushihua/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/team1/Super.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/team1/This.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/team2/Super.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jicheng/mianshiti/team2/This.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jicheng/aboutProperty/Exetend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jicheng/aboutConstructed/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Class/fanshe/Class/JibenleixingDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Class/Spring/peizhi/Pro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jicheng/chushihualiucheng/Subclass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jicheng/chushihualiucheng/Parent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/ActionScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/EquAndDd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meijv/Meijv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meijv/EnumStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meijv/Meij.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meijv/EnumMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forDemo/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meijv/EnumDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forDemo/TestFor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -21,6 +21,7 @@ public class ActionScope {
             System.out.println(actionScope.a);
             String d="aaaa";  //方法块中 声明的变量只存在于 方法块 中  脱离方法块 就失效了
         }
+
         System.out.println(actionScope.a);
         System.out.println(c);
         //        System.out.println(d);
