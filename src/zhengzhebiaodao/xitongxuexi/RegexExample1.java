@@ -2,7 +2,11 @@ package zhengzhebiaodao.xitongxuexi;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+/**
+ * 正则判断
+ * @author ADMIN
+ *
+ */
 public class RegexExample1 {
 
 	public static void main(String[] args) {

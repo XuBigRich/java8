@@ -2,7 +2,11 @@ package zhengzhebiaodao.xitongxuexi;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+/**
+ * 
+ * @author ADMIN
+ *捕获组
+ */
 public class CGORE {
 	public static void main(String[] args) {
 		  // TODO 捕获组
