@@ -15,6 +15,7 @@ public class RegexMatchesAppendReplacement{
       StringBuffer sb = new StringBuffer();
       while(m.find()){
          m.appendReplacement(sb,REPLACE);
+         System.out.println(sb.toString());
       }
       m.appendTail(sb);
       System.out.println(sb.toString());
