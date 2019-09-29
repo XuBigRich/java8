@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f411499a-3395-4b04-9f11-480a0df4e5e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classDemo/MainDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/finalize/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/finalize/Garbage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classDemo/thisDemo/Flower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/forDemo/TestFor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/forDemo/TestFor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8/jicheng/mianshiti/team2/This.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8/jicheng/mianshiti/team2/This.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jicheng/mianshiti/team2/This.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jicheng/mianshiti/team2/This.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Changdu/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Changdu/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/ListDemo/ArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/ListDemo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/ListDemo/LinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/ListAndMap/ListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/ListAndMap/ListMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/VectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/ListDemo/VectorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapDemo/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/MapDemo/HashMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapDemo/HashTableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/MapDemo/HashTableDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,20 +49,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classDemo/finalize/Chair.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rongqi/ListDemo/LinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="133">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classDemo/finalize/Garbage.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rongqi/ListDemo/ArrayListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="133">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,6 +110,9 @@
       <find>swic</find>
       <find>块</find>
       <find>this</find>
+      <find>ArrayList</find>
+      <find>hashMap</find>
+      <find>Set</find>
     </findStrings>
     <replaceStrings>
       <replace>Boss</replace>
@@ -128,16 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Cache/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/classDemo/nimingneibuClass/test.java" />
-        <option value="$PROJECT_DIR$/src/ijjorjji/Text.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/tset/Test.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/mianshiti/duotai/JSTest.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/tset/JSTest.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/duotai/jieshi/JSTest.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/duotai/MSTDT.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/mianshiti/duotai/jieshi/JSTest.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/mianshiti/duotai/jieshi/JSProperty.java" />
         <option value="$PROJECT_DIR$/src/jicheng/mianshiti/duotai/jieshi/JSSuperAThis.java" />
         <option value="$PROJECT_DIR$/src/jicheng/mianshiti/duotai/MSTDT.java" />
         <option value="$PROJECT_DIR$/src/leixingzhuanhuan/jisuanzhongdeleixingzhuanhuan/JS.java" />
@@ -179,6 +176,16 @@
         <option value="$PROJECT_DIR$/src/classDemo/finalize/Chair.java" />
         <option value="$PROJECT_DIR$/src/classDemo/finalize/Garbage.java" />
         <option value="$PROJECT_DIR$/src/classDemo/MainDemo.java" />
+        <option value="$PROJECT_DIR$/src/zhengzhebiaodao/xitongxuexi/UseAppendReplece.java" />
+        <option value="$PROJECT_DIR$/src/zhengzhebiaodao/xitongxuexi/RegexMatchesAppendReplacement.java" />
+        <option value="$PROJECT_DIR$/src/zhengzhebiaodao/xitongxuexi/MatcherDemo.java" />
+        <option value="$PROJECT_DIR$/src/zhengzhebiaodao/xitongxuexi/UseAppendReplacement.java" />
+        <option value="$PROJECT_DIR$/src/rongqi/List/ArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/src/rongqi/MapDemo/HashMapDemo.java" />
+        <option value="$PROJECT_DIR$/src/rongqi/ListDemo/ListAndMap/ListMap.java" />
+        <option value="$PROJECT_DIR$/src/rongqi/ListAndMap/ListMap.java" />
+        <option value="$PROJECT_DIR$/src/rongqi/ListDemo/LinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/src/rongqi/ListDemo/ArrayListDemo.java" />
       </list>
     </option>
   </component>
@@ -202,6 +209,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,19 +227,14 @@
               <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="classDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="rongqi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jicheng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="meijv" type="462c0819:PsiDirectoryNode" />
+              <item name="rongqi" type="462c0819:PsiDirectoryNode" />
+              <item name="ListDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
@@ -240,8 +244,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +252,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RabbitMQ" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -300,21 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Garbage">
-    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="meijv.EnumDemo" />
-      <module name="Java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="meijv.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UseAppendReplacement">
     <configuration name="Garbage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classDemo.finalize.Garbage" />
       <module name="Java8" />
@@ -343,13 +331,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jicheng.chushihualiucheng.Subclass" />
+    <configuration name="RegexMatchesAppendReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zhengzhebiaodao.xitongxuexi.RegexMatchesAppendReplacement" />
       <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jicheng.chushihualiucheng.*" />
+          <option name="PATTERN" value="zhengzhebiaodao.xitongxuexi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,6 +352,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="forDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseAppendReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zhengzhebiaodao.xitongxuexi.UseAppendReplacement" />
+      <module name="Java8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zhengzhebiaodao.xitongxuexi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,18 +397,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestFor" />
-      <item itemvalue="Application.Subclass" />
-      <item itemvalue="Application.EnumDemo" />
       <item itemvalue="Application.MainDemo" />
       <item itemvalue="Application.Garbage" />
+      <item itemvalue="Application.RegexMatchesAppendReplacement" />
+      <item itemvalue="Application.UseAppendReplacement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseAppendReplacement" />
+        <item itemvalue="Application.RegexMatchesAppendReplacement" />
         <item itemvalue="Application.Garbage" />
         <item itemvalue="Application.MainDemo" />
         <item itemvalue="Application.TestFor" />
-        <item itemvalue="Application.EnumDemo" />
-        <item itemvalue="Application.Subclass" />
       </list>
     </recent_temporary>
   </component>
@@ -602,11 +604,13 @@
       <workItem from="1565422068278" duration="3154000" />
       <workItem from="1565696475454" duration="1361000" />
       <workItem from="1565779819248" duration="1699000" />
+      <workItem from="1566903874405" duration="6231000" />
+      <workItem from="1569662424241" duration="428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="762252000" />
+    <option name="totallyTimeSpent" value="768911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,10 +622,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.21261115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.17946646" />
       <window_info id="Structure" order="1" sideWeight="0.50092083" side_tool="true" weight="0.15036379" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -629,9 +633,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32780847" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32692307" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.46678323" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5034965" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32517484" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296501" />
@@ -762,6 +766,12 @@
           <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zhengzhebiaodao/xitongxuexi/UseAppendReplacement.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/sjjg/paixu/Sort.java</url>
           <line>48</line>
@@ -795,69 +805,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/interfaceAndAbstractDemo/shixianAbstract/Man.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/TXtexing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="421" selection-start-line="421" selection-end-line="422" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/trim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/StartsWith.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/Indexof.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/format.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/ByteDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bianma/Zhuanhuan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -889,14 +836,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/regex/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="621" column="19" selection-start-line="621" selection-start-column="19" selection-end-line="621" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MapDemo/HashTableDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/rongqi/MapDemo/HashTableDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
@@ -1137,6 +1077,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="798" lean-forward="true" selection-start-line="798" selection-end-line="798" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhengzhebiaodao/xitongxuexi/RegexMatchesLookingAt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhengzhebiaodao/xitongxuexi/CGORE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhengzhebiaodao/xitongxuexi/RegexMatchesAppendReplacement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhengzhebiaodao/xitongxuexi/MatcherDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhengzhebiaodao/xitongxuexi/UseAppendReplacement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rongqi/MapDemo/HashMapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rongqi/ListAndMap/ListMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rongqi/ListDemo/LinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rongqi/ListDemo/ArrayListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

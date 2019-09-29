@@ -6,7 +6,7 @@ import java.util.List;
  * @author admin
  * @version 1.0.0
  * @ClassName Demo.java
- * @Description 此示例 示范了 如何得到 数组  String  List  长度的 方法或参数
+ * @Description 此示例 示范了 如何得到 数组  String  rongqi.ListDemo  长度的 方法或参数
  * @createTime 2019年04月23日 11:31:00
  */
 public class Demo {

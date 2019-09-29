@@ -1,4 +1,4 @@
-package List;
+package rongqi.ListDemo;
 
 public class Employee {
     private String name;
