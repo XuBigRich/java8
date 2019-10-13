@@ -12,8 +12,9 @@ public class CharDemo {
     //char b=' a' //空格也占用字节
     char c=' '; //同样 char也可以储存一个 空格
     //char d='ad';  //char只能储存一个 字符 这样是2个多了
-    char e='许'; //char 可以储存一个 汉字
+//    char e='许'; //char 可以储存一个 汉字
 
     public static void main(String[] args) {
+        CharDemo charDemo=new CharDemo();
     }
 }
