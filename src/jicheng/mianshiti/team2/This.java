@@ -10,6 +10,8 @@ package jicheng.mianshiti.team2;
  * @createTime 2019年04月23日 10:40:00
  */
 public class This extends Super{
+
+
     public This(){
        // this("s");    //java拒绝在 构造函数中 产生递归调用
         this(1);

@@ -1,10 +1,13 @@
-package List;
+package rongqi.ListDemo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ *
+ */
 public class ArrayListDemo {
     static List<Integer> list=new ArrayList();
     static List<Employee> employees= Arrays.asList(
@@ -33,7 +36,7 @@ public class ArrayListDemo {
         }
         System.out.println("=============================");
         Iterator iterator2= remove().iterator();
-      //  System.out.println(remove().get(0));  // 对 List 迭代完成 后 再对List进行操作 会报错java.util.ConcurrentModificationException
+      //  System.out.println(remove().get(0));  // 对 rongqi.ListDemo 迭代完成 后 再对List进行操作 会报错java.util.ConcurrentModificationException
         while(iterator2.hasNext()){
             System.out.println(iterator2.next());
         }

@@ -1,4 +1,4 @@
-package MapDemo;
+package rongqi.MapDemo;
 
 import java.util.*;
 
