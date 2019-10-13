@@ -1,7 +1,7 @@
 package leixingzhuanhuan.qiangzhileixingzhuanhuan;
 
-import fanxing.STTeacher;
-import fanxing.Teacher;
+import fanxing.use.STTeacher;
+import fanxing.use.Teacher;
 
 /**
  * @author admin

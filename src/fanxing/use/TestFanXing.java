@@ -1,4 +1,4 @@
-package fanxing;
+package fanxing.use;
 
 import java.util.ArrayList;
 import java.util.List;

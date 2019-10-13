@@ -1,4 +1,4 @@
-package fanxing;
+package fanxing.use;
 
 /**
  * @author admin

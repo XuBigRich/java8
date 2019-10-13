@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f411499a-3395-4b04-9f11-480a0df4e5e4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fanxing/create/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Changdu/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Changdu/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/ListDemo/ArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/ListDemo/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/ListDemo/LinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/ListAndMap/ListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/ListAndMap/ListMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/VectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/ListDemo/VectorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapDemo/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/MapDemo/HashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapDemo/HashTableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rongqi/MapDemo/HashTableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fanxing/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fanxing/use/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fanxing/STTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fanxing/use/STTeacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fanxing/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fanxing/use/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fanxing/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fanxing/use/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fanxing/TestFanXing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fanxing/use/TestFanXing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leixingzhuanhuan/qiangzhileixingzhuanhuan/Qz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leixingzhuanhuan/qiangzhileixingzhuanhuan/Qz.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,22 +49,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rongqi/ListDemo/LinkedListDemo.java">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="62" />
+            <state relative-caret-position="17195">
+              <caret line="964" column="45" selection-start-line="964" selection-start-column="45" selection-end-line="964" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3230">
+              <caret line="197" column="38" selection-start-line="197" selection-start-column="38" selection-end-line="197" selection-end-column="38" />
+              <folding>
+                <element signature="e#6252#6253#0" expanded="true" />
+                <element signature="e#6320#6321#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rongqi/ListDemo/ArrayListDemo.java">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="3204" column="45" lean-forward="true" selection-start-line="3204" selection-start-column="45" selection-end-line="3204" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fanxing/create/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10336">
+              <caret line="589" column="69" selection-start-line="589" selection-start-column="69" selection-end-line="589" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -86,7 +113,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>create</find>
-      <find>size</find>
       <find>Boos</find>
       <find>ShallowClone</find>
       <find>equals</find>
@@ -113,6 +139,8 @@
       <find>ArrayList</find>
       <find>hashMap</find>
       <find>Set</find>
+      <find>modCount</find>
+      <find>size</find>
     </findStrings>
     <replaceStrings>
       <replace>Boss</replace>
@@ -135,9 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/jicheng/mianshiti/duotai/jieshi/JSSuperAThis.java" />
-        <option value="$PROJECT_DIR$/src/jicheng/mianshiti/duotai/MSTDT.java" />
-        <option value="$PROJECT_DIR$/src/leixingzhuanhuan/jisuanzhongdeleixingzhuanhuan/JS.java" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa2592.28508/ParseDB.java" />
         <option value="$PROJECT_DIR$/src/XML/xmlsjk/WriteDB.java" />
         <option value="$PROJECT_DIR$/src/LgAndBgleguansuobeiguansuo/Stock.java" />
@@ -186,6 +211,9 @@
         <option value="$PROJECT_DIR$/src/rongqi/ListAndMap/ListMap.java" />
         <option value="$PROJECT_DIR$/src/rongqi/ListDemo/LinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/rongqi/ListDemo/ArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/src/fanxing/use/TestFanXing.java" />
+        <option value="$PROJECT_DIR$/src/fanxing/use/create/Demo.java" />
+        <option value="$PROJECT_DIR$/src/fanxing/create/Demo.java" />
       </list>
     </option>
   </component>
@@ -195,7 +223,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="318" />
     <option name="y" value="126" />
     <option name="width" value="1320" />
@@ -227,14 +255,21 @@
               <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rongqi" type="462c0819:PsiDirectoryNode" />
+              <item name="fanxing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rongqi" type="462c0819:PsiDirectoryNode" />
-              <item name="ListDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="fanxing" type="462c0819:PsiDirectoryNode" />
+              <item name="create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fanxing" type="462c0819:PsiDirectoryNode" />
+              <item name="use" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
@@ -606,11 +641,13 @@
       <workItem from="1565779819248" duration="1699000" />
       <workItem from="1566903874405" duration="6231000" />
       <workItem from="1569662424241" duration="428000" />
+      <workItem from="1569761387331" duration="4675000" />
+      <workItem from="1570925006224" duration="769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="768911000" />
+    <option name="totallyTimeSpent" value="774355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,7 +662,7 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.17946646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.1851253" />
       <window_info id="Structure" order="1" sideWeight="0.50092083" side_tool="true" weight="0.15036379" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -658,37 +695,37 @@
       <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.1738076" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.18189168" />
       <window_info id="Structure" order="1" sideWeight="0.50092083" side_tool="true" weight="0.15036379" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32780847" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49840087" weight="0.46678323" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.5034965" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.3296501" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3296501" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.36766335" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3296501" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3216783" />
-      <window_info anchor="right" id="Maven" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32902184" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32902184" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Database" order="10" weight="0.32983023" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32692307" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.46678323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32517484" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296501" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.36766335" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3296501" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3216783" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32902184" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32902184" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -805,89 +842,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/wenjian.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/FilesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stream/TestStreamAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stream/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rongqi/MapDemo/HashTableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhengzhebiaodao/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SignHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/qianming/Main.java" />
-    <entry file="file://$PROJECT_DIR$/../BKQApi.java" />
-    <entry file="file://$PROJECT_DIR$/src/qianming/BKQApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/switchDemo/SwitchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/qianming/SignHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classDemo/chushihua/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gouzaoqi/Boss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gouzaoqi/Slgz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1147,18 +1101,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rongqi/ListDemo/LinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="62" />
+        <state relative-caret-position="209">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="206" column="13" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="921" column="72" lean-forward="true" selection-start-line="921" selection-start-column="16" selection-end-line="921" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="469" column="40" lean-forward="true" selection-start-line="469" selection-start-column="40" selection-end-line="469" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="476" column="69" lean-forward="true" selection-start-line="476" selection-start-column="69" selection-end-line="476" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rongqi/ListDemo/ArrayListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="76">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fanxing/use/TestFanXing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fanxing/use/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fanxing/use/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fanxing/use/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fanxing/use/STTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17195">
+          <caret line="964" column="45" selection-start-line="964" selection-start-column="45" selection-end-line="964" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="197" column="38" selection-start-line="197" selection-start-column="38" selection-end-line="197" selection-end-column="38" />
+          <folding>
+            <element signature="e#6252#6253#0" expanded="true" />
+            <element signature="e#6320#6321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fanxing/create/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10336">
+          <caret line="589" column="69" selection-start-line="589" selection-start-column="69" selection-end-line="589" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="3204" column="45" lean-forward="true" selection-start-line="3204" selection-start-column="45" selection-end-line="3204" selection-end-column="45" />
         </state>
       </provider>
     </entry>
