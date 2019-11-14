@@ -3,6 +3,7 @@ package Stream;
 import Lambda.whyuse.Employee;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Stream;
@@ -66,12 +67,14 @@ public class TestStreamAPI1 {
                 .skip(2) //跳过前两个
                 .distinct();//去重
         stream.forEach(System.out::println);
+        
 
     }
     /*
     * 映射
     * */
     public static void test5(){
+    	
         employees.stream().map(Employee::getName).forEach(System.out::println);
     }
     public static void main(String[] args) {
