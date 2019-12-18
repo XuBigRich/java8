@@ -1,4 +1,4 @@
-package socket;
+package socket.basics.server;
 
 public class ServerBoot {
     private static final int PORT=8080;

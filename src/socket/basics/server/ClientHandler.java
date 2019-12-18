@@ -1,4 +1,4 @@
-package socket;
+package socket.basics.server;
 
 import java.io.*;
 import java.net.Socket;
@@ -42,6 +42,7 @@ public class ClientHandler  {
     public ClientHandler(Socket socket){
         this.socket=socket;
     }
+    //该方法 会创建一个线程
     public void start(){
         System.out.println("新客户端接入");
             new Thread(()->doStart()).start();

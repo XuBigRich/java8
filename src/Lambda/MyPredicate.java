@@ -9,5 +9,4 @@ public interface MyPredicate {
     default Integer c(int a,int b){
         return new Integer(a)+new Integer(b);
     }
-
 }

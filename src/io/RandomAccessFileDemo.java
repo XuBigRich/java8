@@ -63,7 +63,7 @@ public class RandomAccessFileDemo {
         randomAccessFile.writeInt(i);
         System.out.println(randomAccessFile.getFilePointer());
         String s="许";
-        byte[] bytes=s.getBytes("GBK");
+        byte[] bytes=s.getBytes("utf-8");
         randomAccessFile.write(bytes);
         System.out.println(randomAccessFile.getFilePointer());
         //======================================
