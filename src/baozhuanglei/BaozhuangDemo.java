@@ -1,4 +1,4 @@
-package baozhuangbei;
+package baozhuanglei;
 
 /**
  * @author admin
