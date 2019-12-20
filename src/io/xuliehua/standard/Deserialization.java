@@ -1,4 +1,4 @@
-package xuliehua;
+package io.xuliehua.standard;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

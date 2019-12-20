@@ -1,4 +1,4 @@
-package xuliehua;
+package io.xuliehua.standard;
 
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;

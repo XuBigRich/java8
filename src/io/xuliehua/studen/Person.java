@@ -1,4 +1,4 @@
-package io.xuliehua;
+package io.xuliehua.studen;
 
 import java.io.Serializable;
 /*
