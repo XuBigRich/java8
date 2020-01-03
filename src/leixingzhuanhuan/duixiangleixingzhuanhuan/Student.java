@@ -13,8 +13,9 @@ public class Student {
    public static void main(String[] args) {
        Teacher teacher=new Teacher();
        People people=teacher;  // 向上转型覆盖了子类的name实例方法
-       people.name="liyanbing";  //初始化父类 name属性 此处赋值 是给 父类name 属性赋值
        teacher.name="zhangshuhong";  //初始化子类 name属性  此处赋值 是给 子类name 属性赋值
+       System.out.println(((People)teacher).name);
+       people.name="liyanbing";  //初始化父类 name属性 此处赋值 是给 父类name 属性赋值
        System.out.println(teacher.sex);//初始化 子类必定 初始化 父类 所以子类拥有父类 所有 属性;
        System.out.println(teacher.name);
        System.out.println(((People)teacher).name);
@@ -39,5 +40,4 @@ class People{
 }
 class  Teacher extends People{
     String name;
-
 }

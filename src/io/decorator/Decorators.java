@@ -1,4 +1,4 @@
-package io.decorators;
+package io.decorator;
 
 import java.io.*;
 
@@ -14,7 +14,5 @@ public class Decorators extends FilterInputStream {
         File file=new File("d:/a.txt");
         FileInputStream fileInputStream=new FileInputStream(file);
         Decorators decorators=new Decorators(fileInputStream);
-
-
     }
 }
