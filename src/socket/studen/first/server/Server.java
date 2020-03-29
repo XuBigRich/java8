@@ -16,12 +16,12 @@ public class Server {
 		String QUIT="quit";
 		try {
 			while (true) {
-				Socket socket = serverSocket.accept();
+				Socket socket = serverSocket.accept();//（这个地方会阻塞 等待 客户端唤醒 生成Socket）
 				BufferedReader consoler = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 				String msg=null;
 				//判断 因为种种原因 客户端已经断开 那么 就无需进入while循环了
-				while((msg = consoler.readLine())!=null) {
+				while((msg = consoler.readLine())!=null) {   // 这个地方会阻塞
 					System.out.println("客户端[" + socket.getPort() + "]已连接");
 					System.out.println("客户端[" + socket.getPort() + "]：" + msg);
 					writer.write(msg + "\n");

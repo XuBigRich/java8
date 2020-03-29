@@ -24,14 +24,14 @@ public class Client {
 				new OutputStreamWriter(socket.getOutputStream()));
 		
 		BufferedReader consoleReader = new BufferedReader(
-				new InputStreamReader(System.in)); 
+				new InputStreamReader(System.in));     //这个地方 会阻塞 （疑似多线程）
 		while(true) {
-			String consoleContent=consoleReader.readLine();
+			String consoleContent=consoleReader.readLine();   //这个地方会阻塞（等待控制台输入）
 //			发送消息给服务器
 			write.write(consoleContent+"\n");
 			write.flush();
 			//读取服务器返回消息
-			String msg=reader.readLine();
+			String msg=reader.readLine();  //这个地方会阻塞
 			System.out.println(msg);
 			if(QUIT.equals(msg)) {
 				break;

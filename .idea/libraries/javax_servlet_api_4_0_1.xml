@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="javax.servlet-api-4.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resources/javax.servlet-api-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jdom2-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/snakeyaml-1.23.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
