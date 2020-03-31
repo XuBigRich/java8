@@ -22,5 +22,25 @@ public class Qz {
         System.out.println(s.getClass().getName());  //此为对照 在对象转换中 不会因为谁接收 而转换类类型  但会转换类型
         System.out.println("=====================================");
         System.out.println((int)(char)(byte)1);
+
+
+        //Integer是不可以被强转为String类型的
+        Integer b=1;
+//        String bb=(String)b;
+//        System.out.println(bb);
+
+        Teachers teacher=new Teachers();
+        People people=(People)teacher;  //向上转型 对象没有变
+//        Student student=(Student)teacher;  //这样的平级转化根本不允许
     }
+}
+class People{
+    String name;
+    String sex="m";
+}
+class  Teachers extends People {
+    String name;
+}
+class  Student extends People {
+    String name;
 }
