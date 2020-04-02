@@ -2,6 +2,12 @@ package classLoad;
 
 import sun.net.spi.nameservice.dns.DNSNameService;
 
+/**
+ * 系统原生的类加载器 有三个
+ * 根加载器：
+ * ExtClasLoader加载器（扩展类加载器），用于加载（lib/ext)目录的加载器
+ * DNSNameService加载器（系统类加载器），用于加载当前工程所有类的加载器（当前工程默认加载器）
+ */
 public class ClassLoaderDemo {
     public static void main(String[] args) {
         //Object类加载器
