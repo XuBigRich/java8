@@ -1,15 +1,13 @@
-package classLoad.CustomClassLoader;
+package classLoad.hostClassLoader;
 
-import java.io.*;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 
 /**
- * 自定义类步骤  本地方法类
- *  ClassLoader 类中 三个重要方法与作用
- *      loadClass   主要实现双亲委派模式
- *      findClass   主要实现类的发现与加载为二进制
- *      defineClass 主要实现类的二进制转化为Class对象
- * 1.继承ClassLoader类
- * 2.覆盖findClass方法
+ * 与CustomClassLoader中的一模一样
+ * 主要是提供给HostClassLoaderDemo 调用该类的findClass方法
  */
 public class MyFileClassLoader extends ClassLoader{
     private String director;//被加载类所在的目录
@@ -48,11 +46,4 @@ public class MyFileClassLoader extends ClassLoader{
             throw new RuntimeException();
         }
     }
-
-    public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
-        MyFileClassLoader classLoader=new MyFileClassLoader("d:/demo");
-        Class cls=classLoader.loadClass("cn.piao888.Demo");
-        cls.newInstance();
-    }
-
 }
