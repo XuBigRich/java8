@@ -1,6 +1,7 @@
 package classLoad.CustomClassLoader;
 
 import java.io.*;
+import java.net.URL;
 
 /**
  * 自定义类步骤  本地方法类
@@ -11,15 +12,15 @@ import java.io.*;
  * 1.继承ClassLoader类
  * 2.覆盖findClass方法
  */
-public class MyFileClassLoader extends ClassLoader{
-    private String director;//被加载类所在的目录
-    public MyFileClassLoader(String director){
-        this.director=director;
+public class MyNetClassLoader extends ClassLoader{
+    private String url;//被加载类所在的目录
+    public MyNetClassLoader(String url){
+        this.url=url;
     }
 
-    public MyFileClassLoader(String director, ClassLoader parent){
+    public MyNetClassLoader(String director, ClassLoader parent){
         super(parent);
-        this.director=director;
+        this.url=url;
     }
 
     /**
@@ -32,8 +33,10 @@ public class MyFileClassLoader extends ClassLoader{
     protected Class<?> findClass(String name) {
         try {
             //把类名转化为目录
-            String file=director+ File.separator+name.replace('.','/')+".class"; //这个地方就是把完全限定名的.变成/（系统识别的）
-            FileInputStream fileInputStream=new FileInputStream(file);
+            String path=url+"/"+name.replace('.','/')+".class"; //这个地方就是把完全限定名的.变成/（系统识别的）
+            URL url=new URL(path);
+
+            InputStream fileInputStream=url.openStream();
             byte[] buf=new byte[1024];
             ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
             int len=-1;
@@ -51,7 +54,7 @@ public class MyFileClassLoader extends ClassLoader{
 
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
         MyFileClassLoader classLoader=new MyFileClassLoader("d:/demo");
-        Class cls=classLoader.loadClass("cn.piao888.Demo");
+        Class cls=classLoader.loadClass("www.piao888.cm/demo");
         cls.newInstance();
     }
 

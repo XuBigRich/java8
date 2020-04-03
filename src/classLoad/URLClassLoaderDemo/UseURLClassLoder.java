@@ -43,7 +43,7 @@ public class UseURLClassLoder {
         ClassLoader classLoader=new URLClassLoader(urls);
         System.out.println("父类加载器："+classLoader.getParent());//默认父加载器
         //成功被加载
-        Class<?> aClass=classLoader.loadClass("cn.piao888.Demo");
+        Class<?> aClass=classLoader.loadClass("cn.piao888.Demo"); // 所有的.在findClass阶段将被转化为/
         //成功被初始化
         aClass.newInstance();
     }
