@@ -1,0 +1,7 @@
+//将此Demo 以Demo的名字复制到任意一个(磁盘地址/网络地址下)编译成Class 文件（javac -d . Demo.java），然后使用URLClassLoader加载这个文件
+package cn.piao888;
+  public class Demo{
+  static{
+           System.out.print("I'm a fake demo. I'm loaded");
+  }
+}
