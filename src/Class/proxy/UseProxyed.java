@@ -11,10 +11,11 @@ public class UseProxyed {
         Star ldh = new LiuDeHua();
         //生成一个代理生成器 (InvocationHandler) 通过构造方法将被代理的对象放入代理生成器
         StarProxy proxy = new StarProxy(ldh);
-        //返回一个代理类
+        //返回一个代理类  （demo/ProxySubject是一个代理类的实例），该代理类拥有被代理类的所有方法，和StarProxy对象
         Object obj = proxy.CreatProxyedObj();
-        //you look
+        //根据接口 转化为相应的 接口实现类（方法代理）
         Star star = (Star)obj;
+        //代理类会调用代理类dance方法，代理类的dance方法会调用StarProxy类中的invoke方法
         star.dance("");
     }
 }
