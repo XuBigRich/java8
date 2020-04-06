@@ -31,12 +31,12 @@ public class CglibProxy implements MethodInterceptor
     }
 
     /**
-     *
-     * @param arg0  目标对象代理类的实例
+     *该方法由生成的代理类去 调用intercept
+     * @param arg0  目标对象代理类的实例  父类方法？
      * @param arg1  代理实例上调用父类方法的Method实例
      * @param arg2  传给父类方法的参数
      * @param arg3  使用它调用父类方法
-     * @return
+     * @return 返回被代理方法 的返回值
      * @throws Throwable
      */
     @Override
@@ -44,10 +44,17 @@ public class CglibProxy implements MethodInterceptor
     {
         // 这里增强
         System.out.println("收钱");
-
-        return arg3.invokeSuper(arg0, arg2);
+        Object object=arg3.invokeSuper(arg0, arg2);
+        System.out.println("跑路");
+        return object;
     }
-    public static void main(String[] args)
+
+    public static void main(String[] args) {
+        CglibProxy proxy = new CglibProxy();
+        Star star = (Star)proxy.CreatProxyedObj(LiuDeHua.class);
+        star.sing("ss");
+    }
+/*    public static void main(String[] args)
     {
         int times = 1000000;
 
@@ -86,6 +93,6 @@ public class CglibProxy implements MethodInterceptor
         long time8 = System.currentTimeMillis();
 
         System.out.println("cglib执行时间" + (time8 - time7));
-    }
+    }*/
 
 }
