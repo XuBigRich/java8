@@ -13,7 +13,7 @@ package annotationzhujie.three;
 public class UserEntity {
     @SetProperty(name="user_name",leng = 10)
     private String name;
-    @SetProperty(name="user_old",leng = 10)
+//    @SetProperty(name="user_old",leng = 10)
     private String sex;
 
     public String getName() {

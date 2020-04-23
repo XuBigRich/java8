@@ -33,8 +33,12 @@ public class Text {
     public static void annotfields(Class n){
         Field[] fields= n.getDeclaredFields();
         for(Field field:fields){
-            SetProperty setProperty=field.getAnnotation(SetProperty.class);
-            System.out.println(setProperty.name());
+            try{
+                SetProperty setProperty=field.getAnnotation(SetProperty.class);
+                System.out.println(setProperty.name());
+            }catch (java.lang.NullPointerException e){
+
+            }
         }
     }
  //使用反射 搭配 注解 构造 sql语句
@@ -48,11 +52,16 @@ public static String append(Class n){
     Field[] fields= n.getDeclaredFields();
    for(int i=0;i<n.getDeclaredFields().length;i++){
      Field field=  fields[i];
-       SetProperty setProperty=(SetProperty)field.getAnnotation(SetProperty.class);
-       if(i==n.getDeclaredFields().length-1){
-           propertyName.append(setProperty.name());
-       }else {
-           propertyName.append(setProperty.name()+",");
+       try{
+           SetProperty setProperty=field.getAnnotation(SetProperty.class);
+           System.out.println(setProperty.name());
+           if(i==n.getDeclaredFields().length-1){
+               propertyName.append(setProperty.name());
+           }else {
+               propertyName.append(setProperty.name()+",");
+           }
+       }catch (java.lang.NullPointerException e){
+
        }
     }
     System.out.println(propertyName);
