@@ -1,4 +1,4 @@
-package io.stream.ReadAndWriters;
+package io.ReaderAndWriter.ReadAndWriters;
 
 import java.io.*;
 
