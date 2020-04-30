@@ -45,5 +45,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="gcthrift" level="project" />
+    <orderEntry type="library" name="asm-7.2" level="project" />
   </component>
 </module>
