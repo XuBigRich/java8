@@ -4,7 +4,10 @@ package Lambda.Colon;
 import Lambda.whyuse.Employee;
 
 import java.io.PrintStream;
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
 import java.util.function.*;
 
 /*
@@ -66,8 +69,24 @@ public class Colon {
         //注意equals方法 不是静态方法理论上不可以直接使用  类::
         //但是当第一个参数是实例方法 的实例时（发发调用者），第二个参数时实例方法的参数时 可以使用这种形势了
         BiPredicate<String, String> bp2 = String::equals;
+    }
 
-
+    //类::实例方法名
+    public static void test7() {
+        Employee employee1 = new Employee("hongzhi.xu",21,3960);
+        Employee employee2 = new Employee("许渣渣",22,5000);
+        Employee employee3 = new Employee("许大富",23,6000);
+        List<Employee> employeeList = new ArrayList<>();
+        employeeList.add(employee1);
+        employeeList.add(employee2);
+        employeeList.add(employee3);
+        //一定不为空 需要一个起始值
+        Double salaryMaster = employeeList.stream().map(Employee::getSalary).reduce(0.0, Double::sum);
+        System.out.println(salaryMaster);
+        //可能为空  使用Optional
+        Optional<Double> salary = employeeList.stream().map(Employee::getSalary).reduce(Double::sum);
+        Optional<Double> salary1 = employeeList.stream().map(e->e.getSalary()).reduce(Double::sum);
+        System.out.println(salary.get());
     }
 
     //=======================================================================================================
@@ -78,7 +97,7 @@ public class Colon {
         Employee emp = sup.get();
         //构造器引用
         Supplier<Employee> sup2 = Employee::new;//问：Employee的下面有两个构造器，那么 构造器引用是引用的 哪个  答:无参的 因为参数列表要与接口 参数列表一致
-        Employee emp2 = sup.get();
+        Employee emp2 = sup2.get();
         System.out.println(emp);
         System.out.println(emp2);
 
@@ -102,8 +121,10 @@ public class Colon {
         String[] strings2 = fun.apply(10);
     }
 
+
     public static void main(String[] args) {
         test1();
+        test7();
 //            test2();
 //        test5();
     }
