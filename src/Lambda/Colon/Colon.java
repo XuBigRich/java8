@@ -63,6 +63,8 @@ public class Colon {
     public static void test4() {
         BiPredicate<String, String> bp = (x, y) -> x.equals(y);
         //如果第一个参数是实例方法的调用者，第二个参数是实例方法的参数时 就可以用类::实例方法名(Class::method)
+        //注意equals方法 不是静态方法理论上不可以直接使用  类::
+        //但是当第一个参数是实例方法 的实例时（发发调用者），第二个参数时实例方法的参数时 可以使用这种形势了
         BiPredicate<String, String> bp2 = String::equals;
 
 
