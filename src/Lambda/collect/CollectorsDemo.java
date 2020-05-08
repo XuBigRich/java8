@@ -1,7 +1,6 @@
 package Lambda.collect;
 
 import Lambda.whyuse.Employee;
-import classDemo.C;
 
 import java.util.*;
 import java.util.stream.Collectors;

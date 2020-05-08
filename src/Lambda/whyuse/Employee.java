@@ -21,7 +21,9 @@ public class Employee {
         this.salary = salary;
     }
 
-
+    public String getInfo(String name, Object age){
+        return name+getName()+age+getAge();
+    }
     public String getName() {
         return name;
     }

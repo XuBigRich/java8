@@ -62,20 +62,31 @@ public class Colon {
         com1.compare(2, 3);
     }
 
-    //类::实例方法名
+    //类::实例方法名   当第一个参数时方法调用者时 可以使用 类::实例方法名(Class::method)
     public static void test4() {
+
         BiPredicate<String, String> bp = (x, y) -> x.equals(y);
         //如果第一个参数是实例方法的调用者，第二个参数是实例方法的参数时 就可以用类::实例方法名(Class::method)
         //注意equals方法 不是静态方法理论上不可以直接使用  类::
         //但是当第一个参数是实例方法 的实例时（发发调用者），第二个参数时实例方法的参数时 可以使用这种形势了
         BiPredicate<String, String> bp2 = String::equals;
+
+        //如果第一个参数是实例方法的调用者,第二个参数是返回值时 可以使用类::实例方法名(Class::method)
+        Function<Employee, String> bp1 = e -> e.getName();
+        Function<Employee, String> bp3 = Employee::getName;
+
+        //如果第一个参数是实例方法的调用者,第二,三个参数是方法入参，第三四参数时返回值 可以使用类::实例方法名(Class::method)
+        FourParameterFunction<Employee, String, String, String> hp4 = (x, y, z) -> x.getInfo(y, z);
+        FourParameterFunction<Employee, String, String, String> hp5 = Employee::getInfo;
+
+
     }
 
     //类::实例方法名
     public static void test7() {
-        Employee employee1 = new Employee("hongzhi.xu",21,3960);
-        Employee employee2 = new Employee("许渣渣",22,5000);
-        Employee employee3 = new Employee("许大富",23,6000);
+        Employee employee1 = new Employee("hongzhi.xu", 21, 3960);
+        Employee employee2 = new Employee("许渣渣", 22, 5000);
+        Employee employee3 = new Employee("许大富", 23, 6000);
         List<Employee> employeeList = new ArrayList<>();
         employeeList.add(employee1);
         employeeList.add(employee2);
@@ -85,7 +96,7 @@ public class Colon {
         System.out.println(salaryMaster);
         //可能为空  使用Optional
         Optional<Double> salary = employeeList.stream().map(Employee::getSalary).reduce(Double::sum);
-        Optional<Double> salary1 = employeeList.stream().map(e->e.getSalary()).reduce(Double::sum);
+        Optional<Double> salary1 = employeeList.stream().map(e -> e.getSalary()).reduce(Double::sum);
         System.out.println(salary.get());
     }
 
