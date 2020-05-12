@@ -1,0 +1,5 @@
+grant {
+       permission java.io.FilePermission "D:\studen\Java8\resources\application.yml", "read";
+      permission java.util.PropertyPermission "file.encoding", "read";
+};
+
