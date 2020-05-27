@@ -1,7 +1,13 @@
-//这只是一个 通过代理生成器生成的一个代理类 Demo 
+import javax.security.auth.Subject;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.lang.reflect.UndeclaredThrowableException;
+
+//这只是一个 通过代理生成器生成的一个代理类 Demo
 //仅供参考
 //生成的代理类继承自Proxy类  实现接口为被代理类的全部接口
-public final class ProxySubject extends Proxy implements Subject
+public final class ProxySubject extends Proxy
 {
   //将被代理类 所有的方法生成为静态方法变量
   private static Method m1;
@@ -109,7 +115,6 @@ public final class ProxySubject extends Proxy implements Subject
       m4 = Class.forName("jiankunking.Subject").getMethod("SayHello", new Class[] { Class.forName("java.lang.String") });
       m2 = Class.forName("java.lang.Object").getMethod("toString", new Class[0]);
       m0 = Class.forName("java.lang.Object").getMethod("hashCode", new Class[0]);
-      return;
     }
     catch (NoSuchMethodException localNoSuchMethodException)
     {
