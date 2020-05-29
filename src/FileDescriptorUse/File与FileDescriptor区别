@@ -1,0 +1,48 @@
+问：简单说说你对 Java 中 File 与 FileDescriptor 的理解与认识？
+
+答：
+     File 是磁盘文件和目录路径名的一种抽象形式，其直接继承自 Object，实现了 Serializable 接口和 Comparable 接口；
+ 实现 Serializable 接口意味着 File 对象可以被序列化，而实现 Comparable 接口意味着 File 对象可以比较大小；
+ 此外 File 并没有什么特殊之处，就是对文件的一种上层抽象封装实现，方便操作文件。
+
+    FileDescriptor 是文件描述符，用来表示开放文件、开放套接字等。当 FileDescriptor 表示文件时，我们可以通俗的将
+FileDescriptor 看成是该文件，但是不能直接通过 FileDescriptor 对该文件进行操作，若要通过 FileDescriptor 对该文件进行操作，
+则需要新创建 FileDescriptor 对应的 FileOutputStream，然后再对文件进行操作。
+
+public final class FileDescriptor {
+    /**
+     * 在形式上是一个非负整数。
+     * 实质是一个索引值，指向内核为每一个进程所维护的该进程打开文件的记录表。
+     * 当程序打开一个现有文件或者创建一个新文件时内核向进程返回一个文件描述符。
+     */
+    private int descriptor;        //这个怀疑是Linux中的i节点 inode
+    public  FileDescriptor() {
+        descriptor = -1;
+    }
+    private  FileDescriptor(int descriptor) {
+        this.descriptor = descriptor;
+    }
+    /**
+     * (03)err -- 标准错误输出(屏幕)的描述符
+     * @see     java.lang.System#in
+     */
+    public static final FileDescriptor in = dupFd(0);
+    /**
+     * (01)in -- 标准输入(键盘)的描述符
+     * @see     java.lang.System#out
+     */
+    public static final FileDescriptor out = dupFd(1);
+    /**
+     * (02)out -- 标准输出(屏幕)的描述符
+     * @see     java.lang.System#err
+     */
+    public static final FileDescriptor err = dupFd(2);
+    //工具构造方法
+    private static FileDescriptor dupFd(int fd) {
+        try {
+            return new FileDescriptor(Os.fcntlInt(new FileDescriptor(fd), F_DUPFD_CLOEXEC, 0));
+        } catch (ErrnoException e) {
+            throw new RuntimeException(e);
+        }
+    }
+}

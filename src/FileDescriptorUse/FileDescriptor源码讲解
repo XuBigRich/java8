@@ -1,0 +1,106 @@
+==================================
+关于FileDescriptor类的useCount属性
+==================================
+FileDescriptor类有一个useCount的属性，定义如下：
+ private AtomicInteger useCount;
+这个字段就是记录当前有多少了输入输出流对象关联了这个FileDescriptor对象，
+当我们调用FileInputStream、FileOutputStream的close方法时，首先将useCount减1，然后做了一个判断，代码如下：
+
+如果当前useCount对象的值已经小于等于0的时候才会真正执行native的系统调用，关闭这个文件。
+if ((useCount <= 0) || !isRunningFinalize()) {
+    //这个地方的close0 是jdk的native方法 真正关闭该文件
+            close0();
+}
+
+==================================
+关于FileDescriptor类 描述内存地址偏移量的initIDs方法
+==================================
+
+FileInputStream、FileOutputStream最底层的native的方法中，并没有看到对FileDescriptor的引用，
+而在上文SocketInputStream、SocketOutputStream对象对应的native调用方法中都提供了FileDescriptor对象的引用。
+
+实际上这个在JDK 以前的版本中(现在已经取消了handle属性）是存在为FileDescriptor的一个long类型的名称为handle的字段，
+注意再FileInputStream、FileOutputStream中都有一下这么一段代码，而FileDescriptor也存在一个initIDs方法。
+都是在已静态代码块的形式存在的，他们的作用是相同的，就是设置属性的内存地址偏移量，
+
+   static {
+        initIDs();
+    }
+private static native void initIDs();
+
+FileInputStream的initIDs方法只设置了fd(FileDescriptor类型)这一个属性的内存地址偏移量。
+FileDescriptor设置了两个属性（fd和handle）的内存地址偏移量。
+
+==================================
+打开文件
+==================================
+
+FileInputStreamd的open方法就是打开了一个文件，然后把得到的文件句柄赋给了handle属性，
+而赋值的时候，就要依赖于刚才initIDs所初始化的内存地址偏移量.
+
+==================================
+关于文件的标准输入与输出
+==================================
+FileDescriptor类源码中有三个定义好的静态的FileDescriptor对象，
+分别对应了标准输入、标准输出、标准错误输出的FileDescriptor对象，
+
+    public static final FileDescriptor in = new FileDescriptor(0);
+
+    public static final FileDescriptor out = new FileDescriptor(1);
+
+    public static final FileDescriptor err = new FileDescriptor(2);
+
+拿到这些文件变描述符就可以直接从标准输入、输出中输入和输出数据，能实现类似System.out,System.in,System.error的功能
+
+FileDescriptor有一个sync方法，定义如下：
+
+public native void sync() throws SyncFailedException;
+
+==================================
+关于sync与flush方法
+==================================
+
+这个方法的作用是强制将操作系统文件缓冲区中的数据刷新到物理存储设备上，
+ 还记得有的流对象中又一个方法叫做flush，这个方法和FileDescriptor sync方法有什么区别么，
+ 注意不是所有的输出刘都实现了这个方法，这个方法是定义在OutputStream中的，实现如下：
+ public void flush() throws IOException {
+ }
+ 对，没有看错就是空实现，因为我们并没有定义缓冲区，来看一个实现了这个方法的BufferedOutputStream
+ public synchronized void flush() throws IOException {
+         flushBuffer();
+         out.flush();
+     }
+     private void flushBuffer() throws IOException {
+         if (count > 0) {
+             out.write(buf, 0, count);
+             count = 0;
+         }
+     }
+BufferedOutputStream继承了FilterOutputStream我们知道就是一个过滤流对象，他就是进行了一个包装。
+将实际的OutputStream对象包装在了父类FilterOutputStream中，当我们调用BufferedOutputStream对象的write方法时，
+并没有真正的往父类包装的OutputStream对象中输出，BufferedOutputStream的两个write方法如下：
+         public synchronized void write(int b) throws IOException {
+             if (count >= buf.length) {
+                 flushBuffer();
+             }
+             buf[count++] = (byte)b;
+         }
+         public synchronized void write(byte b[], int off, int len) throws IOException {
+                 if (len >= buf.length) {
+                     flushBuffer();
+                     out.write(b, off, len);
+                     return;
+                 }
+                 if (len > buf.length - count) {
+                     flushBuffer();
+                 }
+                 System.arraycopy(b, off, buf, count, len);
+                 count += len;
+             }
+由源码可见，他们都是等buf数组满了的时候才进行的实际的输出，那么这个buf的大小是多少呢
+this(out, 8192);
+构造方法中指定了大小为个字节，也就是8M，所以这个flush方法只是将我们定义的buffer中的数据输出到实际的输出流，
+这样子就减少了系统调用的次数从而提高了性能，所以flush方法和sync方法的区别也就是在此。
+试想一下我们拿到创建好的InputStream的FileDescriptor去创建一个OutputStream去输出数据可以么，或者反之，
+拿OutputStream的初始化一个InputStream去读可以么？
+答案是不可以，
