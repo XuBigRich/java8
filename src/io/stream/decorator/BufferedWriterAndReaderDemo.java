@@ -21,7 +21,7 @@ import java.io.OutputStreamWriter;
 public class BufferedWriterAndReaderDemo {
 	public static void main(String[] args) throws IOException {
 		//字节流byte
-		InputStream inputStream=new FileInputStream("e:/非道.rar");
+		InputStream inputStream=new FileInputStream("/Users/xuhongzhi/studen/java8/print");
 		// 使用InputStreamReader 将 字节流转化为字符流
 		//为什么要将字节流转化为字符流 （为了国际化）char
 		InputStreamReader inputStreamReader=new InputStreamReader(inputStream);
@@ -31,7 +31,8 @@ public class BufferedWriterAndReaderDemo {
 		System.out.println(sss);
 		
 		//输出byte
-		FileOutputStream out=new FileOutputStream("E://A.txt");
+		FileOutputStream out=new FileOutputStream("./A.txt");
+		out.write(sss.getBytes());
 		OutputStreamWriter outputStreamWriter=new OutputStreamWriter(out);
 		outputStreamWriter.write(sss);
 		//此处的flush 的意义 是将 放入io流的数据写入到 文件中去 （不管是write还是reader 都是 对流的操作）

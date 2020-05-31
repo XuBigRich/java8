@@ -39,7 +39,7 @@ public class ShallowClone implements Cloneable {
         shallowClone.setAge(20);
         shallowClone.getBooks().add("javascript");
         System.out.println("source: " + shallowClone.toString() + "\nclone:" + cloneObj.toString());
-        shallowClone.setBooks(Arrays.asList("hello"));
+        shallowClone.setBooks(Arrays.asList("FileDescriptorUse/PrintStream"));
         System.out.println("source: " + shallowClone.toString() + "\nclone:" + cloneObj.toString());
     }
 

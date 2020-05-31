@@ -1,7 +1,7 @@
 ==================================
 关于FileDescriptor类的useCount属性
 ==================================
-FileDescriptor类有一个useCount的属性，定义如下：
+FileDescriptor类有一个useCount的属性(老版本jdk存在新版本jdk已取消)，定义如下：
  private AtomicInteger useCount;
 这个字段就是记录当前有多少了输入输出流对象关联了这个FileDescriptor对象，
 当我们调用FileInputStream、FileOutputStream的close方法时，首先将useCount减1，然后做了一个判断，代码如下：
@@ -52,13 +52,19 @@ FileDescriptor类源码中有三个定义好的静态的FileDescriptor对象，
 
 拿到这些文件变描述符就可以直接从标准输入、输出中输入和输出数据，能实现类似System.out,System.in,System.error的功能
 
-FileDescriptor有一个sync方法，定义如下：
+注意这里的标准输入与标准输出，错误输出 也是FileDescriptor， 为了方便理解我们可以用Linux系统来测方面讲解，众所周知，Linux系统哲学是，
+万事万物皆文件，纵使是硬件，其也在Linux系统中以文件的形式表达出来。所以既然FileDescriptor是用来描述文件的，当然也可以用以描述硬，
+所以在这里使用FileDescriptor来定义 当前this的标准输入 输出，错误输出。  这个FileDescriptor 描述的既可以是硬件显示屏，也可以是其他软件程序。
+所以 他们的类型是FileDescriptor
 
-public native void sync() throws SyncFailedException;
 
 ==================================
 关于sync与flush方法
 ==================================
+
+FileDescriptor有一个sync方法，定义如下：
+
+public native void sync() throws SyncFailedException;
 
 这个方法的作用是强制将操作系统文件缓冲区中的数据刷新到物理存储设备上，
  还记得有的流对象中又一个方法叫做flush，这个方法和FileDescriptor sync方法有什么区别么，
@@ -103,4 +109,4 @@ this(out, 8192);
 这样子就减少了系统调用的次数从而提高了性能，所以flush方法和sync方法的区别也就是在此。
 试想一下我们拿到创建好的InputStream的FileDescriptor去创建一个OutputStream去输出数据可以么，或者反之，
 拿OutputStream的初始化一个InputStream去读可以么？
-答案是不可以，
+答案 是不可以，

@@ -46,3 +46,4 @@ public final class FileDescriptor {
         }
     }
 }
+所以，针对 System.X 的 API 来说 FileDescriptor 是一种更加底层的操作，其不与文件名相互关联，只与操作系统中对应文件的句柄关联。

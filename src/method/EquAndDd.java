@@ -9,7 +9,7 @@ package method;
  */
 /*
  * 面试题：
- * String s = new String("Hello")与String s = "hello"的区别？
+ * String s = new String("Hello")与String s = "FileDescriptorUse.hello"的区别？
  *
  * == 比较的是引用类型，是地址值是否相同
  * equals 比较的是引用类型，默认是比较地址值，而String类重写了equals方法，比较的是内容是否相同。

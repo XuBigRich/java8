@@ -12,7 +12,7 @@ public class TestDemo extends Thread {
     public static void main(String[] args) {
         TestDemo testDemo=new TestDemo();
         testDemo.TestDemo();
-        String str1="hello";
+        String str1= "FileDescriptorUse/PrintStream";
         String str2="he"+new String("llo");
         System.err.println(str1==str2);
 

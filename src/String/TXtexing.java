@@ -9,13 +9,13 @@ package String;
  */
 public class TXtexing {
     public static void main(String[] args) {
-        String s1="hello";
+        String s1= "FileDescriptorUse/PrintStream";
         String s2="world";
         String s3="helloworld";
         System.out.println(s3==s1+s2); //false
         System.out.println(s3.equals(s1+s2));  //true
-        System.out.println(s3=="hello"+"world"); //true
-        System.out.println(s3.equals("hello"+"world")); //true
+        System.out.println(s3== "FileDescriptorUse/PrintStream" +"world"); //true
+        System.out.println(s3.equals("FileDescriptorUse/PrintStream" +"world")); //true
         String s0="aaa";
         s0="2";
         System.out.println(s0);
@@ -27,7 +27,7 @@ public class TXtexing {
 
     /*
     * public static void main(String[] args) {
-        String s1 = "hello";
+        String s1 = "FileDescriptorUse.hello";
         String s2 = "world";
         String s3 = "helloworld";
         System.out.println(s3 == s1 + s2);   //两个变量 的 内存地址 相加 与s3的内存地址 比较  得出 内存地址不同 （事实上 他们的拼接 是new一个 新的地址 将 s1与s2拼接在一起）

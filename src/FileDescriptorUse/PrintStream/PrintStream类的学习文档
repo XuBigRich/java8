@@ -1,0 +1,73 @@
+进入PrintStream类后
+ 发现PrintStream类继承自FilterOutputStream类。我们都知道Filter是一个装饰类，所以PrintStream继承了这个德行也是一个装饰类
+ 下面我们来看一下他的构造方法
+
+    private PrintStream(boolean autoFlush, OutputStream out) {
+        super(out);
+        this.autoFlush = autoFlush;
+        this.charOut = new OutputStreamWriter(this);
+        this.textOut = new BufferedWriter(charOut);
+    }
+
+    private PrintStream(boolean autoFlush, OutputStream out, Charset charset) {
+        super(out);
+        this.autoFlush = autoFlush;
+        this.charOut = new OutputStreamWriter(this, charset);
+        this.textOut = new BufferedWriter(charOut);
+    }
+
+
+    private PrintStream(boolean autoFlush, Charset charset, OutputStream out)
+        throws UnsupportedEncodingException
+    {
+        this(autoFlush, out, charset);
+    }
+
+
+    public PrintStream(OutputStream out) {
+        this(out, false);
+    }
+
+
+    public PrintStream(OutputStream out, boolean autoFlush) {
+        this(autoFlush, requireNonNull(out, "Null output stream"));
+    }
+
+
+    public PrintStream(OutputStream out, boolean autoFlush, String encoding)
+        throws UnsupportedEncodingException
+    {
+        this(autoFlush,
+             requireNonNull(out, "Null output stream"),
+             toCharset(encoding));
+    }
+
+    public PrintStream(String fileName) throws FileNotFoundException {
+        this(false, new FileOutputStream(fileName));
+    }
+
+
+    public PrintStream(String fileName, String csn)
+        throws FileNotFoundException, UnsupportedEncodingException
+    {
+        // ensure charset is checked before the file is opened
+        this(false, toCharset(csn), new FileOutputStream(fileName));
+    }
+
+    public PrintStream(File file) throws FileNotFoundException {
+        this(false, new FileOutputStream(file));
+    }
+
+    public PrintStream(File file, String csn)
+        throws FileNotFoundException, UnsupportedEncodingException
+    {
+        // ensure charset is checked before the file is opened
+        this(false, toCharset(csn), new FileOutputStream(file));
+    }
+    发现 这个类竟然有10个构造方法 真的是优秀。
+    但是这个类所拥有的属性就这个
+        private final boolean autoFlush;
+        private boolean trouble = false;
+        private Formatter formatter;
+        private BufferedWriter textOut;
+        private OutputStreamWriter charOut;

@@ -33,12 +33,13 @@ import java.io.*;
  */
 public class FileDescriptorTest
 {
-    private static final String FileName = "/Users/xuhongzhi/code/java8/src/FileDescriptorUse/file.txt";
+    private static final String FileName = "/Users/xuhongzhi/studen/java8/src/FileDescriptorUse/file.txt";
     private static final String OutText = "Hi FileDescriptor";
 
     public static void main(String[] args) throws IOException
     {
          testStandFD();
+//        testStandFD1();
 //         testWrite();
 //        testRead();
     }
@@ -54,8 +55,23 @@ public class FileDescriptorTest
      */
     public static void testStandFD() throws IOException
     {
+        //注意FileDescriptor.out 是独立于三界之外的静态方法只要调用FIleDescriptor.out就代表标准输出到控制台
         FileOutputStream out = new FileOutputStream(FileDescriptor.out);
         PrintStream print = new PrintStream(out);
+        print.write(OutText.getBytes());
+    }
+
+    /**
+     * 将文字信息不再打印到屏幕而是打印到 当前项目下的print文件中
+     * @throws IOException
+     */
+    public static void testStandFD1() throws IOException
+    {
+        //更改将输出打印到aaa文件夹下
+        FileOutputStream out = new FileOutputStream("./print");
+        //out 变量将成为PrintStream父类变量的out属性
+        PrintStream print = new PrintStream(out);
+        //最终write调用的是out变量的write方法输出的outText
         print.write(OutText.getBytes());
     }
 
@@ -74,10 +90,10 @@ public class FileDescriptorTest
         FileOutputStream fout = new FileOutputStream(FileName);
         // 获得file对应的FileDescripto对象
         FileDescriptor fd = fout.getFD();
-        // 根据FileDescriptor创建fileOutPutStream对象
+        // 根据FileDescriptor.out创建fileOutPutStream对象(此处注意FileDescriptor独立于三界之外 不管是对象调用还是类调用这是个静态变量不会改变)
         FileOutputStream out = new FileOutputStream(fd.out);
         fout.write("Hello".getBytes());
-        out.write("World".getBytes());
+        out.write("World".getBytes());  //这个地方时使用
         out.close();
         fout.close();
     }
@@ -88,7 +104,7 @@ public class FileDescriptorTest
         FileInputStream fis = new FileInputStream(FileName);
         // 获取文件“file.txt”对应的“文件描述符”
         FileDescriptor fd = fis.getFD();
-        // 根据“文件描述符”创建“FileInputStream”对象
+        // 根据“文件描述符”创建“FileInputStream”对象  这样的创建 其实fis 与fiss操作的是同一个文件描述符
         FileInputStream fiss = new FileInputStream(fd);
         System.out.println("in1.read():" + (char) fis.read());
         System.out.println("in2.read():" + (char) fiss.read());

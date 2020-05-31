@@ -20,7 +20,7 @@ public class Client {
                 System.out.println("客户端启动成功");
                 while (true){
                     try {
-                        String message="hello world";
+                        String message="FileDescriptorUse.hello world";
                         System.out.println("客户端发送数据"+message);
                         socket.getOutputStream().write(message.getBytes());
                     } catch (IOException e) {

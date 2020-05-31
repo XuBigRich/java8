@@ -12,7 +12,7 @@ import java.util.function.Consumer;
 *  右侧:Lambda 表达式中所需执行的功能,即Lambda体
 *
 * 语法格式一:无参数，无返回值
-*           ()-> System.out.println("hello Lambda!");
+*           ()-> System.out.println("FileDescriptorUse.hello Lambda!");
 * 语法格式二:有一个参数,并且无返回值
 *           (x)-> System.out.println(x);
 * 语法格式三:若只有一个参数，小括号可以省略不写
@@ -45,7 +45,7 @@ public class Firest {
         }
     };
     //Lambda写法
-        Runnable r2=()-> System.out.println("hello Lambda!");
+        Runnable r2=()-> System.out.println("FileDescriptorUse.hello Lambda!");
         r2.run();
         r.run();
     }
