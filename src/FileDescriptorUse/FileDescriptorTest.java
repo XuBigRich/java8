@@ -91,8 +91,11 @@ public class FileDescriptorTest
         // 获得file对应的FileDescripto对象
         FileDescriptor fd = fout.getFD();
         // 根据FileDescriptor.out创建fileOutPutStream对象(此处注意FileDescriptor独立于三界之外 不管是对象调用还是类调用这是个静态变量不会改变)
+        //对这个类解释，获取标准输出的文件描述符，建立一个流操作这个文件描述符
         FileOutputStream out = new FileOutputStream(fd.out);
+        //向这个文件描述符写入hello
         fout.write("Hello".getBytes());
+        //向这个文件描述符写入World
         out.write("World".getBytes());  //这个地方时使用
         out.close();
         fout.close();
