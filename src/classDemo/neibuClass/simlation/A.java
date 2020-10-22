@@ -1,4 +1,4 @@
-package classDemo.neibuClass;
+package classDemo.neibuClass.simlation;
 
 public class A {
     A(){

@@ -1,4 +1,4 @@
-package XML.xmlsjk;
+package XML.sax.method1;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
@@ -18,16 +18,18 @@ public class ParseDB extends DefaultHandler {
 	//执行时机：在开始解析文档前执行
 	public void startDocument() throws SAXException {
 		try {
+			System.out.println("我执行了");
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			String url="jdbc:mysql://127.0.0.1:3306/leguanbeiguan?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8";
-			con=DriverManager.getConnection(url,"root","root");
+			String url="jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&relaxAutoCommit=true&zeroDateTimeBehavior=CONVERT_TO_NULL&allowMultiQueries=true";
+			con=DriverManager.getConnection(url,"root","rr998xhz1997");
 			sql="insert into students values(?,?,?)";
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
-	//执行时机：在遇到元素开始时执行
+	//执行时机：在遇到元素开始时执行（取元素中的属性）
 	public void startElement(String uri, String localName, String qName,Attributes attributes) throws SAXException {
+		System.out.println();
 		ename=qName;
 		try {
 			if(qName.equals("student")){
@@ -38,7 +40,7 @@ public class ParseDB extends DefaultHandler {
 			e.printStackTrace();
 		}
 	}
-	//执行时机：在遇到文本内容时执行
+	//执行时机：在遇到文本内容时执行（取元素中的内容）
 	public void characters(char[] ch, int start, int length) throws SAXException {
 		String v=new String(ch,start,length);
 		try {

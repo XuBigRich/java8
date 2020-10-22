@@ -24,7 +24,7 @@ public class ZlStatic extends FlStatic {
                             //  但是idea没有出现重写 注解 根据12行代码 也证明 子类 不可以重写static方法
 
         FlStatic.bbb();  //输出2    给父类参数v打一个标记 增加1
-        zlStatic.bbb();  //输出3 证明了 static 方法可以被子类 继承   子类直接去调用 父类  bbb方法
+        zlStatic.bbb();  //输出3 证明了 static 方法可以被子类    子类直接去调用 父类  bbb方法
 
 
 

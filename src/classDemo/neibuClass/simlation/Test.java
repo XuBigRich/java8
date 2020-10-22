@@ -1,4 +1,4 @@
-package classDemo.neibuClass;
+package classDemo.neibuClass.simlation;
 
 import classDemo.C;
 

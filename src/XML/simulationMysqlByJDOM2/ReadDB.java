@@ -1,4 +1,4 @@
-package XML.xmlsjk;
+package XML.simulationMysqlByJDOM2;
 
 import org.jdom2.Document;
 import org.jdom2.Element;
@@ -10,6 +10,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 
+/**
+ * 基于dom的方式解析xml   使用第三方包jdom2的方式
+ * 从数据库中查询出数据 放入xml中
+ */
 public class ReadDB {
 	public static void main(String[] args) {
 		try {
@@ -18,8 +22,8 @@ public class ReadDB {
 			root.setAttribute("cid","1606");//设置属性
 
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			String url="jdbc:mysql://127.0.0.1:3306/leguanbeiguan?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8";
-			Connection con=DriverManager.getConnection(url,"root","root");
+			String url="jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&relaxAutoCommit=true&zeroDateTimeBehavior=CONVERT_TO_NULL&allowMultiQueries=true";
+			Connection con=DriverManager.getConnection(url,"root","rr998xhz1997");
 
 			String sql="select * from students";
 			ResultSet rs=con.createStatement().executeQuery(sql);
@@ -39,7 +43,8 @@ public class ReadDB {
 
 			doc.setRootElement(root);
 			XMLOutputter xo=new XMLOutputter(Format.getPrettyFormat());
-			FileOutputStream fos=new FileOutputStream("e:/studb.xml");
+			String path=System.getProperty("user.dir")+"/studb.xml";
+			FileOutputStream fos=new FileOutputStream(path);
 			xo.output(doc, fos);
 
 			con.close();
