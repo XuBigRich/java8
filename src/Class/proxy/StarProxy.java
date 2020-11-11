@@ -39,6 +39,7 @@ public class StarProxy implements InvocationHandler {
     }
 
     /**
+     * 可以找地方给他挪出来hhhh
      * 方法CreatProxyedObj返回的对象才是我们的代理类，
      * 它需要三个参数，前两个参数的意思是在同一个classloader下通过接口创建出一个对象，
      * 该对象需要一个属性，也就是第三个参数，它是一个InvocationHandler
@@ -51,7 +52,7 @@ public class StarProxy implements InvocationHandler {
          *  其三个参数意义
          * 1. 获取目标类的类加载器
          * 2. 获取目标类实现的接口（了解被代理类有哪些方法）
-         * 3. 目标类需要一个InvocationHandler 对象（也就是当前实现类）
+         * 3. 目标类需要一个InvocationHandler 对象（也就是当前实现类） 用以规范 回调的invoke方法
          * 重点：
          * 新生成的代理类，根据被代理类的实现接口，
          *                  StarProxy这个类作为构造方法。

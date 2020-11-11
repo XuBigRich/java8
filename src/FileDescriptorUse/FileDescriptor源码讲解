@@ -7,7 +7,7 @@ FileDescriptor类有一个useCount的属性(老版本jdk存在新版本jdk已取
 当我们调用FileInputStream、FileOutputStream的close方法时，首先将useCount减1，然后做了一个判断，代码如下：
 
 如果当前useCount对象的值已经小于等于0的时候才会真正执行native的系统调用，关闭这个文件。
-if ((useCount <= 0) || !isRunningFinalize()) {
+if ((useCount <= 0)  !isRunningFinalize()) {
     //这个地方的close0 是jdk的native方法 真正关闭该文件
             close0();
 }
