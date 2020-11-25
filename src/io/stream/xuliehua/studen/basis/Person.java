@@ -1,4 +1,4 @@
-package io.stream.xuliehua.studen;
+package io.stream.xuliehua.studen.basis;
 
 import java.io.Serializable;
 /*

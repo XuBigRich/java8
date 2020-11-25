@@ -50,9 +50,49 @@ public class SwitchDemo {
                 System.out.println("default");
         }
     }
+
+    /**
+     * 在执行case过程中 对case值进行改变
+     */
+    public static void mianshi(){
+        int i=1;
+        switch (i) {
+            case 1:
+                i=i+2;
+                System.out.println(i);
+            case 3:
+                i=i+2;
+                System.out.println(i);
+                break;
+            case 5:
+                System.out.println(i);
+                break;
+            default:
+                System.out.println("default");
+        }
+    }
+
+    /**
+     * 验证default 会在都执行了 之后执行吗
+     */
+    public static void mianshi2(){
+        int i=1;
+        switch (i) {
+            case 1:
+                i=i+2;
+                System.out.println(i);
+            case 3:
+                i=i+2;
+                System.out.println(i);
+            default:
+                System.out.println("default");
+        }
+    }
     public static void main(String[] args) {
-    		SwitchDemo.StringSwich("1");
-        IntegerSwitch();
-        EnumSwitch();
+//    		SwitchDemo.StringSwich("1");
+//        IntegerSwitch();
+//        EnumSwitch();
+        mianshi();
+        mianshi2();
     	}
 }

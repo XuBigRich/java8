@@ -1,10 +1,8 @@
-package AndOr;
+package AndOrOr;
 
 /**
- * 学习短路与 与 短路或
- *
  * @Author： hongzhi.xu
- * @Date: 2020/11/7 4:07 下午
+ * @Date: 2020/11/13 下午8:34
  * @Version 1.0
  */
 public class Learn {
@@ -18,8 +16,10 @@ public class Learn {
         return false;
     }
 
-    public static void main(String[] args) {
-
+    /**
+     * 演示短路与 与 短路或 、与 与 或
+     */
+    public static void shortOut() {
         //遇真则停
         System.out.println("=====遇真则停 返回真=====");
         System.out.println(printFalse() || printTrue());
@@ -38,5 +38,9 @@ public class Learn {
         System.out.println("=====执行到底 有一个假的 返假=====");
         System.out.println(printTrue() & printFalse());
         System.out.println(printFalse() & printTrue());
+    }
+
+    public static void main(String[] args) {
+        shortOut();
     }
 }

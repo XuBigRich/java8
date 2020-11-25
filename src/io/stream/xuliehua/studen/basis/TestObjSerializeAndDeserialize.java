@@ -1,4 +1,4 @@
-package io.stream.xuliehua.studen;
+package io.stream.xuliehua.studen.basis;
 
 import java.io.*;
 /*
@@ -7,7 +7,7 @@ import java.io.*;
 * */
 public class TestObjSerializeAndDeserialize {
     public static void main(String[] args) throws Exception {
-//        SerializePerson();
+        SerializePerson();
         Person person=DeserializePerson();
         System.out.println(person.toString());
     	}

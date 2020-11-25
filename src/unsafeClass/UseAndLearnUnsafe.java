@@ -63,7 +63,14 @@ public class UseAndLearnUnsafe {
      */
     public UseAndLearnUnsafe() throws IllegalAccessException {
         this.useAndLearnUnsafe = this;
-        //生成Unsafe对象的关键
+        /**
+         * 生成Unsafe对象的关键
+         * 其原理是，通过反射的方式获取Unsafe对象，因为 Unsafe会在类被装载时，生成一个静态的Unsafe对象
+         * 然后直接通过Field的get方法直接给他把属性对象给他捞出来。
+         * 年轻人不讲武德，别人生成好的私有对象 ，他通过反射的方式给他 劫糊了！
+         * 就此 Unsafe获得了一个私有变量
+         */
+
         Field unsafeField = Unsafe.class.getDeclaredFields()[0];
         unsafeField.setAccessible(true);
         Unsafe unsafe = (Unsafe) unsafeField.get(null);
