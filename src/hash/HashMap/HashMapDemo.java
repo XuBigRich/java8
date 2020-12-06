@@ -12,18 +12,21 @@ import java.util.Map;
  */
 public class HashMapDemo {
 
-    public Map map=new HashMap();
+    public Map map = new HashMap();
 
-    public void put(String key,String value){
-        map.put(key,value);
+    public void put(String key, String value) {
+        System.out.println(map.put(key, value));
     }
 
-    public void get(String key){
+    public void get(String key) {
         map.get(key);
     }
+
     public static void main(String[] args) {
-        HashMapDemo demo=new HashMapDemo();
-        demo.put("许","鸿志");
+        HashMapDemo demo = new HashMapDemo();
+        demo.put("许", "鸿志");
+        demo.get("许");
+        demo.put("许", "大富");
         demo.get("许");
     }
 }
