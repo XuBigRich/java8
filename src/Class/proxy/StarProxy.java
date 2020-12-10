@@ -24,6 +24,7 @@ public class StarProxy implements InvocationHandler {
      * @return
      * @throws Throwable
      */
+    @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         //此处传入的是代理类实例 所以 转化会报错
 //        LiuDeHua liuDeHua=(LiuDeHua)proxy;
