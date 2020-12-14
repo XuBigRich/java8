@@ -1,6 +1,5 @@
 package Class.proxy.cglib.sourceCode;
 
-import net.sf.cglib.core.DebuggingClassWriter;
 import net.sf.cglib.proxy.Enhancer;
 
 /**

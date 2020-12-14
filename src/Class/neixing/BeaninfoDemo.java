@@ -1,9 +1,6 @@
 package Class.neixing;
 
-import java.beans.BeanInfo;
-import java.beans.IntrospectionException;
-import java.beans.Introspector;
-import java.beans.PropertyDescriptor;
+import java.beans.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Map;
@@ -42,7 +39,13 @@ public class BeaninfoDemo {
             System.out.println(getNmae);//输出 所有get方法的方法名
             String key = property.getName();
             System.out.println(key);// 输出所有的属性（通过判断是否含有get方法来确定这个属性   （因为是通过get方法确定 所以会有判断出错的时候详情看student类））
-/*
+            MethodDescriptor[] method= beaninfo.getMethodDescriptors();
+            for(MethodDescriptor methodDescriptor:method){
+                String name=methodDescriptor.getMethod().getName();
+                System.out.println(name);
+            }
+
+            /*
             // 过滤class属性 ，因为 每一个 类 都有一个 隐藏的 class属性
             if (!key.equals("class")) {
 //                 得到property对应的getter方法
