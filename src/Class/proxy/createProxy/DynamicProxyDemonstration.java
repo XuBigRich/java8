@@ -42,7 +42,8 @@ public class DynamicProxyDemonstration
     }
     private static void createProxyClassFile(){
         String name = "ProxySubject";
-        byte[] data = ProxyGenerator.generateProxyClass(name,new Class[]{Subject.class});
+        byte[] data = ProxyGenerator.generateProxyClass(name,new Class[]{Star.class});
+//        byte[] data = ProxyGenerator.generateProxyClass(name,new Class[]{Subject.class});
         FileOutputStream out =null;
         try {
             out = new FileOutputStream(name+".class");

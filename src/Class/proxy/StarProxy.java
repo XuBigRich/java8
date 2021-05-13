@@ -4,15 +4,25 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/**
+ * 这个类是由jdk生成的代理类调用，jdk会生成一个与star一摸一样的类，但构造方法中会包含本类，生成的代理类样子请看PorxySubject.class类字节码
+ * 代理类很简单，只是简单调用本处理类，然后本处理类调用相应的处理方法，
+ * jdk生成的代理类包含本处理类对象与所有目标类方法
+ * 本处理类包含目标类对象
+ * 不管代理类执行任何方法时，都会调用本处理类的invoke方法
+ * *****当代理类调用某个方法时，目标方法会被传入本处理类对象，然后本处理类对象对这个方法进行增强加工，之后调用目标类方法，达到增强调用的目的
+ */
 public class StarProxy implements InvocationHandler {
     private Object target;
-    public StarProxy(Object target){
-        this.target=target;
-    }
-    public void setTarget(Object target)
-    {
+
+    public StarProxy(Object target) {
         this.target = target;
     }
+
+    public void setTarget(Object target) {
+        this.target = target;
+    }
+
     /**
      * 该方法由生成的代理类去执行，
      * 该方法负责集中处理动态代理类上的所有方法调用。
@@ -28,12 +38,12 @@ public class StarProxy implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         //此处传入的是代理类实例 所以 转化会报错
 //        LiuDeHua liuDeHua=(LiuDeHua)proxy;
-     //   System.out.println(liuDeHua.fans);
+        //   System.out.println(liuDeHua.fans);
 
         // 这里可以做增强 （方法执行前）
         System.out.println("收钱");
         //调用方法需要通过被代理类对象与所调用方法 进行初始化 并执行 返回Object
-        Object result=method.invoke(target,args);
+        Object result = method.invoke(target, args);
         // 这里可以做增强 （方法执行后）
         System.out.println("跑路");
         return result;
@@ -44,7 +54,8 @@ public class StarProxy implements InvocationHandler {
      * 方法CreatProxyedObj返回的对象才是我们的代理类，
      * 它需要三个参数，前两个参数的意思是在同一个classloader下通过接口创建出一个对象，
      * 该对象需要一个属性，也就是第三个参数，它是一个InvocationHandler
-     * @return  返回需要的代理类
+     *
+     * @return 返回需要的代理类
      */
     public Object CreatProxyedObj() {
         /*

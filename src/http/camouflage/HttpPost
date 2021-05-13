@@ -1,0 +1,21 @@
+POST /login HTTP/1.1
+User-Agent: PostmanRuntime/7.26.8
+Accept: */*
+Postman-Token: 31ad4d9c-7de0-47a2-afcd-6749d45cceea
+Host: localhost.:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------930312399930196524008471
+Content-Length: 278
+
+----------------------------930312399930196524008471
+Content-Disposition: form-data; name="username"
+
+
+root
+----------------------------930312399930196524008471
+Content-Disposition: form-data; name="password"
+
+
+root
+----------------------------930312399930196524008471--

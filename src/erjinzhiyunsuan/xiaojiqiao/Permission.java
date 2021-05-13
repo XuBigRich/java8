@@ -47,7 +47,6 @@ package erjinzhiyunsuan.xiaojiqiao;
  * 判断权限
  * 用户权限数字  &  权限值   = 权限值
  *
- *
  * @Author： hongzhi.xu
  * @Date: 2020/11/17 上午7:29
  * @Version 1.0
@@ -126,7 +125,7 @@ public class Permission {
         Permission permission = new Permission();
         permission.setPer(flag);
         //禁止用户的查询与插入权限 ，使用｜ 会将两个权限结合起来  传入disable方法
-        permission.disable(ALLOW_SELECT|ALLOW_INSERT);
+        permission.disable(ALLOW_SELECT | ALLOW_INSERT);
         System.out.println(permission.isAllow(ALLOW_SELECT));
         System.out.println(permission.isAllow(ALLOW_DELETE));
 

@@ -39,7 +39,7 @@ import java.lang.reflect.Field;
  * park方法和unpark方法相信看过LockSupport类的都不会陌生，这两个方法主要用来挂起和唤醒线程。
  * LockSupport中的park和unpark方法正是通过Unsafe来实现的：
  * monitorEnter方法和monitorExit方法用于加锁，Java中的synchronized锁就是通过这两个指令来实现的。
- *
+ * <p>
  * * * *  *  *  *  *  *  *  *  * 类加载 *  *  *  *  *  *  *  *  *  *
  * classLoader方法
  *
@@ -50,19 +50,12 @@ import java.lang.reflect.Field;
 public class UseAndLearnUnsafe {
     public int target;
 
+    public Integer integerTarget;
 
-    private Unsafe theUnsafe;
+    public static Unsafe theUnsafe;
     private UseAndLearnUnsafe useAndLearnUnsafe;
 
-
-    /**
-     * 给theUnsafe 与 useAndLearnUnsafe 赋值
-     *
-     * @return
-     * @throws IllegalAccessException
-     */
-    public UseAndLearnUnsafe() throws IllegalAccessException {
-        this.useAndLearnUnsafe = this;
+    static {
         /**
          * 生成Unsafe对象的关键
          * 其原理是，通过反射的方式获取Unsafe对象，因为 Unsafe会在类被装载时，生成一个静态的Unsafe对象
@@ -73,8 +66,23 @@ public class UseAndLearnUnsafe {
 
         Field unsafeField = Unsafe.class.getDeclaredFields()[0];
         unsafeField.setAccessible(true);
-        Unsafe unsafe = (Unsafe) unsafeField.get(null);
-        this.theUnsafe = unsafe;
+        Unsafe unsafe = null;
+        try {
+            unsafe = (Unsafe) unsafeField.get(null);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        theUnsafe = unsafe;
+    }
+
+    /**
+     * 给theUnsafe 与 useAndLearnUnsafe 赋值
+     *
+     * @return
+     * @throws IllegalAccessException
+     */
+    public UseAndLearnUnsafe() throws IllegalAccessException {
+        this.useAndLearnUnsafe = this;
     }
 
     /**
@@ -95,6 +103,47 @@ public class UseAndLearnUnsafe {
     }
 
     /**
+     * 获取地址上的一个object类型的值
+     */
+    public void getObject() {
+        Field field = null;
+        try {
+            //获取useAndLearnUnsafe对象的target属性
+            field = useAndLearnUnsafe.getClass().getField("integerTarget");
+            //从这个属性上面获取属性在对象上的偏移量
+            long l = theUnsafe.objectFieldOffset(field);
+            //在这个偏移量上面设置数据
+            theUnsafe.putObject(useAndLearnUnsafe, l, new Integer(23));
+            //通过Unsafe获取偏移量上面的数据
+            Object o = theUnsafe.getObject(useAndLearnUnsafe, l);
+            //打印出来
+            System.out.println(o);
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    /**
+     * 直接停止当前正在运行的线程
+     */
+    public void stop() {
+        System.out.println("开始线程停止");
+        theUnsafe.park(false, 0L);
+        System.out.println("结束线程停止");
+    }
+
+    /**
+     * 唤醒某一个线程
+     *
+     * @param thread 某个线程
+     */
+    public static void unpark(Thread thread) {
+        if (thread != null)
+            theUnsafe.unpark(thread);
+    }
+
+    /**
      * 获取地址上是一个int类型的值
      *
      * @param address 传入的地址
@@ -106,7 +155,7 @@ public class UseAndLearnUnsafe {
 
 
     /**
-     * 给某一个地址赋值
+     * 给某一个地址赋值一个int类型
      *
      * @param address 传入的地址
      */
@@ -181,8 +230,23 @@ public class UseAndLearnUnsafe {
 //    public native void fullFence();
     }
 
-    public static void main(String[] args) throws IllegalAccessException {
+    public static void main(String[] args) throws IllegalAccessException, InterruptedException {
         UseAndLearnUnsafe useAndLearnUnsafe = new UseAndLearnUnsafe();
         useAndLearnUnsafe.getFile();
+        useAndLearnUnsafe.getObject();
+        //测试手动让线程停止工作
+        Thread stopThread = new Thread(() -> {
+            try {
+                UseAndLearnUnsafe testThread = new UseAndLearnUnsafe();
+                testThread.stop();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+
+        });
+        stopThread.start();
+        Thread.sleep(3000);
+        System.out.println("开始手动干预唤醒线程");
+        unpark(stopThread);
     }
 }

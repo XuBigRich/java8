@@ -45,7 +45,7 @@ public class WriterDemo {
             FileInputStream fileInputStream = new FileInputStream("/Users/xuhongzhi/code/java8/src/io/stream/ReadAndWriterMethod/ReadDemo.java");
             FileOutputStream fileOutputStream = new FileOutputStream("/Users/xuhongzhi/code/java8/src/io/stream/ReadAndWriterMethod/ReadDemo");
             int i = 0;
-            byte[] bytes=new byte[1024];
+            byte[] bytes = new byte[1024];
             while ((i = fileInputStream.read(bytes)) != -1) {
                 System.out.println(i);
                 fileOutputStream.write(bytes);
@@ -65,11 +65,11 @@ public class WriterDemo {
             FileInputStream fileInputStream = new FileInputStream("/Users/xuhongzhi/code/java8/src/io/stream/ReadAndWriterMethod/ReadDemo.java");
             FileOutputStream fileOutputStream = new FileOutputStream("/Users/xuhongzhi/code/java8/src/io/stream/ReadAndWriterMethod/ReadDemod");
             int i = 0;
-            byte[] bytes=new byte[1024];
+            byte[] bytes = new byte[1024];
             while ((i = fileInputStream.read(bytes)) != -1) {
                 System.out.println(i);
                 //从bytes数组中0开头的位置到i的数组长度的数据 写入到输出流中
-                fileOutputStream.write(bytes,0,i-10);
+                fileOutputStream.write(bytes, 0, i - 10);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -79,7 +79,8 @@ public class WriterDemo {
     }
 
     public static void main(String[] args) {
-        WriterDemo writerDemo=new WriterDemo();
+        WriterDemo writerDemo = new WriterDemo();
+        writerDemo.writer();
         writerDemo.writerThreeParameter();
     }
 }
