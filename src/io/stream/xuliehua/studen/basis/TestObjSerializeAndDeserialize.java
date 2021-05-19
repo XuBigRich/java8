@@ -20,7 +20,7 @@ public class TestObjSerializeAndDeserialize {
            */
     private static void SerializePerson() throws FileNotFoundException, IOException, ClassNotFoundException {
         Person person = new Person("xu" ,"男",21);
-        File file = new File("D:\\测试\\person.txt");
+        File file = new File("person.txt");
         FileOutputStream fos = new FileOutputStream(file);
         ObjectOutputStream oos = new ObjectOutputStream(fos);
         oos.writeObject(person);
@@ -36,7 +36,7 @@ public class TestObjSerializeAndDeserialize {
               */
         private static Person DeserializePerson() throws Exception, IOException {
             ObjectInputStream ois = new ObjectInputStream(new FileInputStream(
-                    new File("D:\\测试\\person.txt")));
+                    new File("person.txt")));
             Person person = (Person) ois.readObject();
             System.out.println("Person对象反序列化成功！");
             return person;

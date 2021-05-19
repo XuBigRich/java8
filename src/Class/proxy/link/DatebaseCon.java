@@ -1,4 +1,4 @@
-package Class.proxy.con;
+package Class.proxy.link;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
