@@ -1,6 +1,5 @@
 package Cookie;
 
-import com.sun.xml.internal.xsom.impl.util.Uri;
 
 import java.io.BufferedReader;
 import java.io.IOException;
