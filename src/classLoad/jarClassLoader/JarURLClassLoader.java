@@ -1,5 +1,7 @@
 package classLoad.jarClassLoader;
 
+import sun.misc.Launcher;
+
 import java.net.JarURLConnection;
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -14,6 +16,7 @@ public class JarURLClassLoader {
     private URLClassLoader classLoader;
 
     public JarURLClassLoader(URL jar) {
+        Launcher
         this.jar = jar;
         classLoader = new URLClassLoader(new URL[] { jar });
     }
