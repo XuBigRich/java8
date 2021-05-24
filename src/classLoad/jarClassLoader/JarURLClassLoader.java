@@ -16,7 +16,6 @@ public class JarURLClassLoader {
     private URLClassLoader classLoader;
 
     public JarURLClassLoader(URL jar) {
-        Launcher
         this.jar = jar;
         classLoader = new URLClassLoader(new URL[] { jar });
     }
