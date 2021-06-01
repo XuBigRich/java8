@@ -1,0 +1,71 @@
+package RSA;
+
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+import java.nio.charset.StandardCharsets;
+import java.security.*;
+import java.security.spec.InvalidKeySpecException;
+import java.security.spec.PKCS8EncodedKeySpec;
+import java.security.spec.X509EncodedKeySpec;
+
+/**
+ * 自己编写优美版
+ *
+ * @author 许鸿志
+ * @since 2021/6/1
+ */
+public class MyRSAUtils {
+    //非对称密钥算法
+    public static final String KEY_ALGORITHM = "RSA";
+
+    //私钥解密
+    public static byte[] decryptByPrivateKey(byte[] data, byte[] key) throws NoSuchAlgorithmException, InvalidKeySpecException, NoSuchPaddingException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
+        PKCS8EncodedKeySpec pkcs8EncodedKeySpec = new PKCS8EncodedKeySpec(key);
+        KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);
+        PrivateKey privateKey = keyFactory.generatePrivate(pkcs8EncodedKeySpec);
+        Cipher cipher = Cipher.getInstance(keyFactory.getAlgorithm());
+        cipher.init(Cipher.DECRYPT_MODE, privateKey);
+        return cipher.doFinal(data);
+    }
+
+    //公钥解密
+    public static byte[] decryptByPublicKey(byte[] data, byte[] key) throws NoSuchAlgorithmException, InvalidKeySpecException, NoSuchPaddingException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
+        X509EncodedKeySpec x509EncodedKeySpec = new X509EncodedKeySpec(key);
+        KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);
+        PublicKey publicKey = keyFactory.generatePublic(x509EncodedKeySpec);
+        Cipher cipher = Cipher.getInstance(KEY_ALGORITHM);
+        cipher.init(Cipher.DECRYPT_MODE, publicKey);
+        return cipher.doFinal(data);
+    }
+
+    //私钥加密
+    public static byte[] encryptByPrivateKey(byte[] data, byte[] key) throws NoSuchAlgorithmException, InvalidKeySpecException, NoSuchPaddingException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
+        PKCS8EncodedKeySpec pkcs8EncodedKeySpec = new PKCS8EncodedKeySpec(key);
+        KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);
+        PrivateKey privateKey = keyFactory.generatePrivate(pkcs8EncodedKeySpec);
+        Cipher cipher = Cipher.getInstance(KEY_ALGORITHM);
+        cipher.init(Cipher.ENCRYPT_MODE, privateKey);
+        return cipher.doFinal(data);
+    }
+
+    //公钥加密
+    public static byte[] encryptByPublicKey(byte[] data, byte[] key) throws NoSuchAlgorithmException, InvalidKeySpecException, NoSuchPaddingException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
+        X509EncodedKeySpec x509EncodedKeySpec = new X509EncodedKeySpec(key);
+        KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);
+        PublicKey publicKey = keyFactory.generatePublic(x509EncodedKeySpec);
+        Cipher cipher = Cipher.getInstance(KEY_ALGORITHM);
+        cipher.init(Cipher.ENCRYPT_MODE, publicKey);
+        return cipher.doFinal(data);
+    }
+
+    public static void main(String[] args) throws NoSuchPaddingException, IllegalBlockSizeException, NoSuchAlgorithmException, InvalidKeySpecException, BadPaddingException, InvalidKeyException {
+        String publicKey = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIR16NyikJk2SNITRlqr2yAUWwdmakjRLauJ3MDUOYmmXHGGe9PjjTb/rZV12rF0weDmTMnsXE7Oy8BXjSHszJcCAwEAAQ==";
+        byte[] bytes = Base64Utils.decodeBase64(publicKey);
+        byte[] ciphertext = encryptByPublicKey("key".getBytes(StandardCharsets.UTF_8), bytes);
+        String base= Base64Utils.encodeBase64String(ciphertext);
+        System.out.println(base);
+    }
+}
