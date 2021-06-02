@@ -28,7 +28,7 @@ public class Demo {
     class Circle extends Shape implements Serializable {
         private float radius;
         transient int color;
-        //发现了一个秘密 就是内部类不可以又内部生命
+        //发现了一个秘密 就是内部类不可以有内部声明
 //        public static String type="Circle";
     }
 }
