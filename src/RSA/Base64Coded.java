@@ -16,12 +16,18 @@ public class Base64Coded {
 
     //base64 解码
     public static String decode(byte[] bytes) {
-        return new String(Base64Utils.decodeBase64(bytes));
+        char[] chars1 = new String(bytes).toCharArray();
+        System.out.println();
+        String decodeString = new String(Base64Utils.decodeBase64(bytes));
+        char[] chars2 = decodeString.toCharArray();
+        System.out.println(chars2);
+        return decodeString;
     }
 
     //base64 编码
     public static String encode(byte[] bytes) {
-        return new String(Base64Utils.encodeBase64(bytes));
+        String encodeString = new String(Base64Utils.encodeBase64(bytes));
+        return encodeString;
     }
 }
 

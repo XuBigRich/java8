@@ -1,6 +1,8 @@
 package RSA;
 
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
@@ -62,10 +64,11 @@ public class MyRSAUtils {
     }
 
     public static void main(String[] args) throws NoSuchPaddingException, IllegalBlockSizeException, NoSuchAlgorithmException, InvalidKeySpecException, BadPaddingException, InvalidKeyException {
+        System.out.println(System.currentTimeMillis());
         String publicKey = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIR16NyikJk2SNITRlqr2yAUWwdmakjRLauJ3MDUOYmmXHGGe9PjjTb/rZV12rF0weDmTMnsXE7Oy8BXjSHszJcCAwEAAQ==";
         byte[] bytes = Base64Utils.decodeBase64(publicKey);
-        byte[] ciphertext = encryptByPublicKey("key".getBytes(StandardCharsets.UTF_8), bytes);
-        String base= Base64Utils.encodeBase64String(ciphertext);
+        byte[] ciphertext = encryptByPublicKey(String.valueOf(System.currentTimeMillis()+System.currentTimeMillis()).getBytes(StandardCharsets.UTF_8), bytes);
+        String base = Base64Utils.encodeBase64String(ciphertext);
         System.out.println(base);
     }
 }
