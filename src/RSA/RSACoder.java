@@ -39,7 +39,7 @@ public class RSACoder {
      *
      * @return Map 甲方密钥的Map
      */
-    public static Map<String, Object> initKey() throws Exception {
+    public static Map<String, Object> xinitKey() throws Exception {
         //实例化密钥生成器  
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance(KEY_ALGORITHM);
         //初始化密钥生成器  
@@ -173,7 +173,7 @@ public class RSACoder {
     public static void main(String[] args) throws Exception {
         //初始化密钥  
         //生成密钥对  
-        Map<String, Object> keyMap = RSACoder.initKey();
+        Map<String, Object> keyMap = RSACoder.xinitKey();
         //公钥  
         byte[] publicKey = RSACoder.getPublicKey(keyMap);
         //byte[] publicKey = b;
