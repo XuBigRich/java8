@@ -64,10 +64,11 @@ public class MyRSAUtils {
     }
 
     public static void main(String[] args) throws NoSuchPaddingException, IllegalBlockSizeException, NoSuchAlgorithmException, InvalidKeySpecException, BadPaddingException, InvalidKeyException {
-        System.out.println(System.currentTimeMillis());
+        Long timestamp = System.currentTimeMillis();
+        System.out.println(timestamp);
         String publicKey = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIR16NyikJk2SNITRlqr2yAUWwdmakjRLauJ3MDUOYmmXHGGe9PjjTb/rZV12rF0weDmTMnsXE7Oy8BXjSHszJcCAwEAAQ==";
         byte[] bytes = Base64Utils.decodeBase64(publicKey);
-        byte[] ciphertext = encryptByPublicKey(String.valueOf(System.currentTimeMillis()+System.currentTimeMillis()).getBytes(StandardCharsets.UTF_8), bytes);
+        byte[] ciphertext = encryptByPublicKey(String.valueOf(1623221262041L).getBytes(StandardCharsets.UTF_8), bytes);
         String base = Base64Utils.encodeBase64String(ciphertext);
         System.out.println(base);
     }

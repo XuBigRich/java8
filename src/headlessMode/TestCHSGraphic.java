@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 若想体验非无头模式，，运行请在linux下查看错误
  *
  *
  * 运行时入参:
@@ -19,6 +20,7 @@ public class TestCHSGraphic {
      * 有时可能会用到显示器，有时候用不到显示器。
      * 所以如果用到显示器时，那么将配置参数设置为false。
      * 如果用不到显示器，那么配置参宿和设置为true
+     *
      *
      * @param arg
      */
