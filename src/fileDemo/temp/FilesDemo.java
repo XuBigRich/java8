@@ -78,9 +78,9 @@ public class FilesDemo {
     /**
      * 获取path目录下的所有文件
      *
-     * @param path
      */
-    public static void allFilesByPath(Path path) throws IOException {
+    public static void allFilesByPath() throws IOException {
+        Path path=Paths.get("C:");
         Files.list(path).forEach(e -> System.out.println(e));
     }
 
@@ -91,6 +91,9 @@ public class FilesDemo {
         copyByStream(path);
         readTemp(path);
         space(null);
-        allFilesByPath(path);
+        allFilesByPath();
+        String property = "java.io.tmpdir";
+        String tempDir = System.getProperty(property);
+        System.out.println(tempDir);
     }
 }
