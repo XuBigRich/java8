@@ -22,18 +22,21 @@ public class IteratorAndFor {
         while (integerIterator.hasNext()) {
             Integer item = integerIterator.next();
             if (item.equals(1)) {
+//               通过迭代器移除会更新  expectedModCount 属性  执行 expectedModCount = modCount;
                 integerIterator.remove();
             }
         }
     }
 
-    public void useFor(){
-        for(Integer item:list){
-            if(item.equals(3)){
+    public void useFor() {
+        for (Integer item : list) {
+            if (item.equals(3)) {
+                // 通过list移除 不会更新 expectedModCount ，所以会造成 expectedModCount ！= modCount  导致异常抛出
                 list.remove(item);
             }
         }
     }
+
     public static void main(String[] args) {
         IteratorAndFor iteratorAndFor = new IteratorAndFor();
         iteratorAndFor.addValues();
