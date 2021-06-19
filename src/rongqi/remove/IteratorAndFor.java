@@ -29,6 +29,7 @@ public class IteratorAndFor {
     }
 
     public void useFor() {
+        //使用for(:) 其实是使用的迭代器的方式遍历
         for (Integer item : list) {
             if (item.equals(3)) {
                 // 通过list移除 不会更新 expectedModCount ，所以会造成 expectedModCount ！= modCount  导致异常抛出
@@ -37,12 +38,27 @@ public class IteratorAndFor {
         }
     }
 
+    public void useFor2() {
+        //使用常规for循环方式遍历列表
+        for (int i = 0; i <= list.size(); i++) {
+            Integer target = list.get(i);
+            if (target.equals(3)){
+                // 通过list移除 不会更新 expectedModCount ，所以会造成 expectedModCount ！= modCount  导致异常抛出
+                list.remove(target);
+            }
+        }
+    }
+
     public static void main(String[] args) {
         IteratorAndFor iteratorAndFor = new IteratorAndFor();
         iteratorAndFor.addValues();
-        iteratorAndFor.useIterator();
+//        iteratorAndFor.useIterator();
         System.out.println(iteratorAndFor.list);
-        iteratorAndFor.useFor();
+        // useFor()
+//        iteratorAndFor.useFor();
+        System.out.println(iteratorAndFor.list);
+        //useFor2()
+        iteratorAndFor.useFor2();
         System.out.println(iteratorAndFor.list);
     }
 }
