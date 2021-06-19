@@ -1,6 +1,5 @@
 package annotationzhujie.four;
 
-import annotationzhujie.three.SetTable;
 
 import java.io.File;
 import java.lang.reflect.Method;
