@@ -33,7 +33,8 @@ public class BaozhuangDemo {
     }
     //包装类型的特色 0可以除以0 不会抛出异常，返回值用NaN标表示这个数字不存在
     public static void zeroDividedZero(){
-
+        //Character
+        Character character='a';
         //Double
         Double doubleZero1=0.0;
         Double doubleZero2=0.0;

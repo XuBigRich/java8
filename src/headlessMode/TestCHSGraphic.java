@@ -4,6 +4,8 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,15 +26,13 @@ public class TestCHSGraphic {
      *
      * @param arg
      */
-    public static void readImg(String arg) {
+    public static void readImg(String arg) throws MalformedURLException {
         //设置Headless模式
         System.setProperty("java.awt.headless", arg);
-        //拿到默认工具包，通过工具包的方法把硬盘上的图片拿到内存中来
+//        //拿到默认工具包，通过工具包的方法把硬盘上的图片拿到内存中来
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Map<String, Image> map = new HashMap<String, Image>();
-        String path = TestCHSGraphic.class.getClassLoader().getResource("test.jpg").getPath();
-        System.out.println(path);
-        Image exploreImage = toolkit.getImage(TestCHSGraphic.class.getClassLoader().getResource("test.jpg"));
+        Image exploreImage = toolkit.getImage(new URL("file://Users/xuhongzhi/studen/java8/test.jpg"));
         map.put("1", exploreImage);
         System.out.println(exploreImage);
     }
