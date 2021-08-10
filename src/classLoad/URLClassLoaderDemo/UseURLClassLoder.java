@@ -69,6 +69,7 @@ public class UseURLClassLoder {
 
     }
 
+    //URLClassLoader.getURLs 方法就是用来获取这个加载器 加载过的所有项目
     public void learnURLs() throws MalformedURLException {
         URL url = new URL("http://piao888.cn/examples");
         URL[] urls = {url};
@@ -80,7 +81,7 @@ public class UseURLClassLoder {
             Enumeration<URL> baseUrls = new Vector(Arrays.asList(urlList)).elements();
             //感觉这像一个原始的迭代器
             while (baseUrls.hasMoreElements()) {
-                System.out.println("urlClassLoader: "+baseUrls.nextElement());
+                System.out.println("urlClassLoader: " + baseUrls.nextElement());
             }
         }
 
@@ -93,7 +94,7 @@ public class UseURLClassLoder {
             Enumeration<URL> baseUrls = new Vector(Arrays.asList(urlList)).elements();
             //感觉这像一个原始的迭代器
             while (baseUrls.hasMoreElements()) {
-                System.out.println("contextClassLoader: "+baseUrls.nextElement());
+                System.out.println("contextClassLoader: " + baseUrls.nextElement());
             }
         }
     }
