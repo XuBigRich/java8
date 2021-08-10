@@ -2,8 +2,14 @@ package classLoad.ContextClassLoader;
 
 import classLoad.hostClassLoader.MyFileClassLoader;
 
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.Vector;
+
 /**
- * 学习线程与上下文加载器加载器
+ * 学习线程与上下文加载器加载器,与URL加载器
  * <p>
  * 首先上下文加载器与线程的关系
  *
