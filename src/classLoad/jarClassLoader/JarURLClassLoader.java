@@ -17,12 +17,12 @@ public class JarURLClassLoader {
 
     public JarURLClassLoader(URL jar) {
         this.jar = jar;
-        classLoader = new URLClassLoader(new URL[] { jar });
+        classLoader = new URLClassLoader(new URL[]{jar});
     }
 
     /**
      * 在指定包路径下加载子类
-     * 
+     *
      * @param superClass
      * @param
      * @return

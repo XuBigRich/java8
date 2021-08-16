@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class cid="1606">
-    <student sid="1">
-        <name>许鸿志</name>
-        <sex>男</sex>
-        <age>18</age>
-    </student>
+<!--命名空间 xmlns-->
+<class  cid="1606"  xmlns:h="http://www.bea.com/ns/weblogic/90"  xmlns:f="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+    <h:student sid="1" >
+        <h:name>许鸿志</h:name>
+        <h:sex>男</h:sex>
+        <h:age>18</h:age>
+    </h:student>
+    <f:student sid="2" >
+        <f:name>许大富</f:name>
+        <f:sex>男</f:sex>
+        <f:age>24</f:age>
+    </f:student>
 </class>
