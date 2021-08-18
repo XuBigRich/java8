@@ -41,7 +41,7 @@ public class CreateQRCodeUtil {
 //    //logo高度
 //    private static final int HEIGHT = 200;
 
-    private static final String backUrl = "https://digital-education-platform.oss-cn-beijing.aliyuncs.com/image/background.jpg";
+    private static final String backUrl = "background.jpg";
 
     /**
      * 创建二维码
