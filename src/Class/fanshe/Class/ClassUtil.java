@@ -1,5 +1,6 @@
 package Class.fanshe.Class;
 
+import Class.Spring.shili.Person;
 import Class.Spring.shili.Student;
 
 import java.lang.reflect.Constructor;
@@ -33,6 +34,12 @@ public class ClassUtil {
                 System.out.println("方法参数类型的类类型:" + param.getName());
             }
         }
+
+        System.out.println( "判断类对象(s)表示的类或接口是否与指定的(Student.class) 类参数，" +
+                "所表示的类或接口相同，或者是他的父类或接口 ："+s.isAssignableFrom(Person.class)
+                + "\n反过来呢？："+Person.class.isAssignableFrom(s)
+        );
+
         /*
          * 获取成员变量信息
          * */
