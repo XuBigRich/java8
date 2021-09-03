@@ -25,7 +25,7 @@ import objectSize.utils.ObjectInfo;
  *  此时 nullObjects对象变量 与 NullObject对象  的 4 （ObjectD） 会进行内存对齐，这样 依然占用72
  * 所以我认为 应该是80
  *+
- * @author 许鸿志
+ * @author 许鸿志j
  * @since 2021/9/2
  */
 public class ArraySize {
