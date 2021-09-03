@@ -5,6 +5,9 @@ import objectSize.utils.ClassIntrospector;
 import objectSize.utils.ObjectInfo;
 
 /**
+ *
+ *   开启(-XX:+UseCompressedOops) 可以压缩指针。
+ *   关闭(-XX:-UseCompressedOops) 可以关闭压缩指针。
  * 计算数组大小
  * 8(_mark) + 8(oop指针)+4(ObjectD[]数组长度) +8(nullObjects[0]_mark) +8(nullObjects[0],_mark)+ 8(nullObjects[0],oop指针)+8(nullObjects[1],_mark)+ 8(nullObjects[1],oop指针)
  * <p>
@@ -27,7 +30,6 @@ import objectSize.utils.ObjectInfo;
  */
 public class ArraySize {
     NullObject[] nullObjects = new NullObject[2];
-
     public ArraySize() {
         nullObjects[0] = new NullObject();
         nullObjects[1] = new NullObject();
