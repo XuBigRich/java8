@@ -1,4 +1,4 @@
-package objectSize;
+package objectSize.ObjectArraySize;
 
 import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
 
@@ -11,7 +11,7 @@ import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
 public class NullObject {
     //在ArraySize中择机注释，平时 注释掉
     int value=0;
-
+//    long aaa;
     public static void main(String[] args) {
         NullObject memoryAligning = new NullObject();
         long objectSize = ObjectSizeCalculator.getObjectSize(memoryAligning);
