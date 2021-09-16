@@ -39,6 +39,8 @@ public class Tips {
         System.out.println((t3-t2));
     }
 
+
+
     public static void main(String[] args) {
         displacement();
         remainder1();
