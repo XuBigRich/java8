@@ -1,4 +1,4 @@
-package RSA;
+package encryption.RSA;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;

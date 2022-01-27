@@ -1,4 +1,4 @@
-package RSA;
+package encryption.RSA;
 
 import javax.crypto.Cipher;
 import java.security.KeyFactory;
@@ -14,6 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * RSA 非对称加密
  * 进阶
  * 主要讲解base64
  * 用于字符串保存 加密/解密 的结果

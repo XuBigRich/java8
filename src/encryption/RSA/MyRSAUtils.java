@@ -1,7 +1,5 @@
-package RSA;
+package encryption.RSA;
 
-
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;

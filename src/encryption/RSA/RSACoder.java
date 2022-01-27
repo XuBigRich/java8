@@ -1,4 +1,4 @@
-package RSA;
+package encryption.RSA;
 
 import java.security.Key;
 import java.security.KeyFactory;
@@ -18,7 +18,7 @@ import javax.crypto.Cipher;
 /**
  * 基础篇
  * <p>
- * RSA  （详细版）主要学习加密、解密
+ * encryption.RSA  （详细版）主要学习加密、解密
  */
 public class RSACoder {
     //非对称密钥算法

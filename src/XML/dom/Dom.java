@@ -58,6 +58,7 @@ public class Dom {
             Document doc = builder.parse(multpath);
             NodeList nodelist = doc.getElementsByTagName("students");
             Element element = (Element) nodelist.item(0);
+            System.out.println(element.getTagName());
             NodeList nodelists = element.getElementsByTagName("student");
             for (int i = 0; i < nodelists.getLength(); i++) {
                 Element e = (Element) nodelists.item(i);

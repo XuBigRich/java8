@@ -1,4 +1,4 @@
-package RSA;
+package encryption.RSA;
 
 /**
  * base64的使用

@@ -37,6 +37,8 @@ public class HelloAgent {
         //将jack对象 取一个名字托管到 管理器中
         server.registerMBean(jack, new ObjectName("jack:name=Jack"));
         //给这个对象添加监听器,监听器为实现了NotificationListener接口的 HelloListener实现类
+        //然后设置关注事件的对象有那些，和监听器 放入监听器和 hello对象
+        //hello是回调对象，有监听器判断是否要回调hello方法
         jack.addNotificationListener(new HelloListener(), null, hello);
         Thread.sleep(500000);
     }

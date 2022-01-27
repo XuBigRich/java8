@@ -10,7 +10,7 @@ public class Jack extends NotificationBroadcasterSupport implements JackMBean {
     private int seq = 0;
 
     public void hi() {
-        //创建一个信息包
+        //创建一个信息包，这其实是一个事件对象，封装了事件源
         Notification notify =
                 //通知名称；谁发起的通知；序列号；发起通知时间；发送的消息
                 new Notification("jack.hi", this, ++seq, System.currentTimeMillis(), "jack");

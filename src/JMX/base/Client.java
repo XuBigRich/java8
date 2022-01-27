@@ -26,7 +26,7 @@ public class Client {
 
         System.out.println("Domains ......");
         String[] domains = mbsc.getDomains();
-
+        //遍历输出
         for (int i = 0; i < domains.length; i++) {
             System.out.println("doumain[" + i + "]=" + domains[i]);
         }

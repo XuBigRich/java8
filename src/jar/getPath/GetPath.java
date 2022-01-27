@@ -76,9 +76,9 @@ public class GetPath {
 
 
     public static void main(String[] args) throws URISyntaxException, IOException, ClassNotFoundException, InvocationTargetException, IllegalAccessException, InstantiationException {
-        getResourcePath();
-        getResource();
-        getClassPath();
+//        getResourcePath();
+//        getResource();
+//        getClassPath();
         getSysResource();
 
     }
