@@ -1,5 +1,7 @@
-package encryption.RSA;
+package RSA;
 
+
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
@@ -33,11 +35,17 @@ public class MyRSAUtils {
 
     //公钥解密
     public static byte[] decryptByPublicKey(byte[] data, byte[] key) throws NoSuchAlgorithmException, InvalidKeySpecException, NoSuchPaddingException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
+        //将公钥构造为X509样式的结构
         X509EncodedKeySpec x509EncodedKeySpec = new X509EncodedKeySpec(key);
+        //密钥工厂选择RSA
         KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);
+        //使用密钥工厂对X509样式的公钥 原文进行构造 变成一个真正的公钥
         PublicKey publicKey = keyFactory.generatePublic(x509EncodedKeySpec);
+        //初始化一个密码 此类提供用于加密和解密的加密密码的功能
         Cipher cipher = Cipher.getInstance(KEY_ALGORITHM);
+        //表示密码用于解密
         cipher.init(Cipher.DECRYPT_MODE, publicKey);
+        //对数据进行解密
         return cipher.doFinal(data);
     }
 
