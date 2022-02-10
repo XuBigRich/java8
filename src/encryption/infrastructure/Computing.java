@@ -5,6 +5,7 @@ package encryption.infrastructure;
  * 介绍了  byte 如何强转 int  他的 byte存储格式
  * byte 转int  根据8位中的 最高位（符号位），如果为 1 补 1， 为0补0
  * int 转 byte ，永远只取 int 中的低8位 ，符号位不变 ，数字位取反+1，若为正数  则直接取低8位， 若为负数，存储转换后的低8位。
+ *
  * @Author： hongzhi.xu
  * @Date: 2022/2/10 9:12 上午
  * @Version 1.0
@@ -65,5 +66,12 @@ public class Computing {
         //所以输出 1111 1111 1111 1111 1111 1111 1111 1111
         System.out.println(Integer.toBinaryString((byte) -2049));
 
+        //如果要保持byte 原生的 样子
+        //1111 1111 （byte计算机存储补码）
+        //1111 1111 1111 1111 1111 1111 1111 1111  （十进制 补码）
+        //与 0xff 做&运算 ,又将 恢复
+        //0000 0000 0000 0000 0000 0000 1111 1111
+        //他的表现形式 为 1111 1111 ，这样相当于恢复了 byte原生的int类型的样子
+        System.out.println(Integer.toBinaryString((byte) -2049 & 0xff));
     }
 }
