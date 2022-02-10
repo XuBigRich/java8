@@ -90,6 +90,7 @@ public class Convert {
             //       1000 0000 0000 0000 0000 0000 0000 0001 & 0000 0000 0000 0000 0000 0000  1111 1111 1111
             //        0000 0000 0000 0000 0000 0000  0000 1111 1111
             System.out.println(b & 0XFF);
+            //得到保留了 byte字符 原生状态下的  int类型的 16进制形式 （细品 重点）
             String hex = Integer.toHexString(b & 0XFF);
             if (hex.length() == 1) {
                 sb.append("0");
