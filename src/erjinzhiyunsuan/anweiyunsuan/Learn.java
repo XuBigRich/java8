@@ -15,11 +15,13 @@ public class Learn {
      * 位与 就是都为1 为1 其他为 0
      */
     public static void and(){
+        //获取4的补码
         String i = Integer.toBinaryString(4);
+        //获取4的补码
         String g = Integer.toBinaryString(6);
-        //打印出来 int类型4 的二进制形式
+        //打印出来 int类型4 的补码二进制形式
         System.out.println("4的二进制形式："+i);
-        //打印出来 int类型6 的二进制形式
+        //打印出来 int类型6 的补码二进制形式
         System.out.println("6的二进制形式："+g);
 
         String a=Integer.toBinaryString(4&6);

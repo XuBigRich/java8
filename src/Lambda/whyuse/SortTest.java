@@ -1,7 +1,12 @@
 package Lambda.whyuse;
 
+import Lambda.use.Count;
+
 import java.util.*;
 /*
+* lambda表达式：
+*   lambda表达式事实上 就是生成一个对象，这个表达式整体就是一个接口的实现对象。
+*
 * 看完所有方法后看：
 *       优化方法思路：众多方法中 “输出方法” 冗余度最高，优化方法就是  合并输出方法
 *       思路  把判断方法从 输出 中分离出来  建立一个统一的 输出方法（也就是说 保证输出循环中 所有的 成员都符合判断条件）
@@ -16,6 +21,7 @@ public class SortTest {
             new Employee("赵六",16,333333.33)
     );
     public static void test1(){
+        //生成一个匿名内部类对象
         Comparator<Integer> com = new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
@@ -26,6 +32,7 @@ public class SortTest {
     }
     //Lambda表达式
     public static void test2(){
+        //生成一个lambda表达式对象 【(o1,o2) ->Integer.compare(o1, 02)】 【】里面的其实是一个对象
         Comparator<Integer> com=(o1,o2) ->Integer.compare(o1, 02);
         TreeSet<Integer> ts=new TreeSet<>(com);
     }
