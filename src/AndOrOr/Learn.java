@@ -39,8 +39,8 @@ public class Learn {
         System.out.println(printTrue() & printFalse());
         System.out.println(printFalse() & printTrue());
     }
-
     public static void main(String[] args) {
         shortOut();
+
     }
 }
