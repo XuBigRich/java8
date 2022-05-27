@@ -26,4 +26,11 @@ public abstract class Person {
     public void judge(){
         sex("怎么可能");
     }
+
+    /**
+     * 测试通过Person.test() 查看能否直接执行
+     */
+    public static void test(){
+        System.out.println("我是抽象类中的静态方法，我能否被直接执行？");
+    }
 }
