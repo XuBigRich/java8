@@ -23,5 +23,9 @@ public class Test {
         Target t = (Target) eh.create();
         t.f();
         t.g();
+        //cglib会创建一个子类
+        System.out.println(t.getClass());
+        //若想获得原本的类，需要调用superclass
+        System.out.println(t.getClass().getSuperclass());
     }
 }

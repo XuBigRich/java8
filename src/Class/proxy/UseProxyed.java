@@ -17,5 +17,7 @@ public class UseProxyed {
         Star star = (Star)obj;
         //代理类会调用代理类dance方法，代理类的dance方法会调用StarProxy类中的invoke方法
         star.dance("");
+        System.out.println(star.getClass());
+        System.out.println(star.getClass().getSuperclass());
     }
 }
