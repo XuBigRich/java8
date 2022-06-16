@@ -6,6 +6,7 @@ package meijv;
 public enum EnumMethod {
      /*测试 say*/
      GZFF1{
+         @Override
          public void say(){
              System.out.println("说");
          }
@@ -18,6 +19,7 @@ public enum EnumMethod {
      },
     /*测试 say*/
     GZFF2{
+        @Override
         public void say(){
             System.out.println("学");
         }
