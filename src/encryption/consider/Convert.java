@@ -18,7 +18,7 @@ public class Convert {
      * @param hex
      * @return
      */
-    public String HexToString(String hex) {
+    public static String HexToString(String hex) {
         return new String(HexToBytes(hex));
     }
 
@@ -28,7 +28,7 @@ public class Convert {
      * @param hexStr
      * @return
      */
-    public byte[] HexToBytes(String hexStr) {
+    public static byte[] HexToBytes(String hexStr) {
         if (hexStr.length() < 1)
             return null;
         byte[] result = new byte[hexStr.length() / 2];
@@ -47,7 +47,7 @@ public class Convert {
      * @param str
      * @return
      */
-    public String StringToHex(String str) {
+    public static String StringToHex(String str) {
         byte[] bytes = str.getBytes(StandardCharsets.UTF_8);
         return BytesToHex(bytes);
     }
@@ -58,7 +58,7 @@ public class Convert {
      * @param hex
      * @return
      */
-    public byte[] StringToBytes(String hex) {
+    public static byte[] StringToBytes(String hex) {
         return hex.getBytes(StandardCharsets.UTF_8);
     }
 
@@ -68,7 +68,7 @@ public class Convert {
      * @param bytes
      * @return
      */
-    public String BytesToString(byte[] bytes) {
+    public static String BytesToString(byte[] bytes) {
         return new String(bytes);
     }
 
@@ -106,8 +106,17 @@ public class Convert {
         //输出255
         System.out.println(target);
         //1111 1111  计算机存储形式，展示byte时，用原码展示 所以为-1  （因为符号位变成了1 ，所以补码就与原码不一样了）
-        System.out.println((byte)target);
+        System.out.println((byte) target);
         //255以补码形式存储进byte[] 数组， 是-1
+
+        String text = "你好世界";
         BytesToHex(new byte[]{(byte) target});
+        //二进制转16进制
+        String hex = BytesToHex(text.getBytes(StandardCharsets.UTF_8));
+        System.out.println(hex);
+        //16进制转字符串
+        String str = HexToString(hex);
+        System.out.println(str);
+
     }
 }
