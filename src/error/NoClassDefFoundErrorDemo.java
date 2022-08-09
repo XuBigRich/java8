@@ -7,7 +7,7 @@ package error;
 public class NoClassDefFoundErrorDemo {
     public static void main(String[] args) throws InterruptedException {
         Thread.sleep(20000);
-        //DOTO 未完成
+        //TODO 未完成
         Target target = new Target();
         target.say();
     }
