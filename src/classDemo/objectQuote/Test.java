@@ -13,7 +13,7 @@ public class Test {
     public void pre(Target target) {
         this.target = target;
     }
-
+    //变相证明这个地方只是吧target的 name 值赋给 name，而不是引用赋给name
     public void init() {
         this.name = target.getName();
     }
