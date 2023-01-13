@@ -14,6 +14,7 @@ import java.lang.ref.*;
  * @Version 1.0
  */
 public class ReferenceDemo {
+
     /**
      * 软饮用 当 内存将要满的时候才会 触发GC，然后清除引用对象，否则不会 清除
      */
@@ -98,9 +99,9 @@ public class ReferenceDemo {
 
     public static void main(String[] args) throws InterruptedException {
 //        softReference();
-//        weakReference();
+        weakReference();
 //        phantomReference();
-        referenceQueue();
+//        referenceQueue();
     }
 
 }
