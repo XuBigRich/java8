@@ -8,6 +8,7 @@ package Class.owned;
  * @Version 1.0
  */
 
+
 public class Owned {
     private String a;
     private String b;
@@ -20,5 +21,13 @@ public class Owned {
     public void exsss(String a, String b) {
         this.a = a;
         this.b = b;
+    }
+
+    @Override
+    public String toString() {
+        return "Owned{" +
+                "a='" + a + '\'' +
+                ", b='" + b + '\'' +
+                '}';
     }
 }
