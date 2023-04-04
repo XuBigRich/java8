@@ -42,9 +42,24 @@ public class SubListDemo {
         System.out.println(integers);
         System.out.println(sub);
     }
+    public static void nullIs() {
+        List<Integer> integers = new ArrayList<>();
+        integers.add(1);
+        integers.add(2);
+        integers.add(3);
+        integers.add(4);
+        integers.add(5);
+        integers.add(6);
+
+        List sub = integers.subList(0, 3);
+        sub = null;
+        System.out.println(integers);
+        System.out.println(sub);
+    }
 
     public static void main(String[] args) {
 //        read();
         isnull();
+        nullIs();
     }
 }
