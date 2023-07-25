@@ -18,6 +18,10 @@ public class EnumDemo {
             System.out.println(name);
             EnumMethod.GZFF2.son();
             System.out.println( EnumMethod.GZFF1.sum(1));
-    }
+            final Zhi sys_error = Zhi.valueOf("SYS_ERROR");
+            //区分大小写
+//            final Zhi sys_error = Zhi.valueOf("sys_error");
+            System.out.println("");
+        }
 
 }
